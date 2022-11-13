@@ -1,0 +1,159 @@
+/*
+ Theme Name: WrapKit
+ Description: Adds support for languages written in a Right To Left (RTL) direction.
+ Author: Skat
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed
+}
+blockquote {
+	border-left: none;
+	border-right: 4px solid #5e8cc0
+}
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9 {
+	float: right
+}
+.flex-viewport {
+	direction: ltr
+}
+.sd-header-left-options,
+.sd-header-social a,
+.sd-logo,
+.sd-insurance-tabs ul,
+.sd-insurance-tabs ul li a i,
+.sd-footer-menu,
+.sd-search-input,
+.sd-recent-widget-thumb,
+.sd-more-p,
+.sd-first-page,
+.sd-product-intro-content .sd-panel-icon,
+.sd-q,
+.sd-review-thumb,
+.sd-review-content h3,
+.sd-latest-blog-content,
+.sd-newsletter #mc_embed_signup_scroll div,
+.sd-tour-days {
+	float: right;	
+}
+.sd-header-social,
+.sd-free-quote,
+.sd-quote-form .wpcf7-submit,
+.sd-footer-social,
+.sd-copyright-menu,
+.sd-menu-wrapper,
+.sd-post-author,
+.sd-last-page,
+.sd-extra-button,
+.sd-top-phone,
+.sd-top-bar-menu,
+.sd-stars {
+	float: left;	
+}
+.sd-tab-section-title {
+	left: auto;
+	right: 0;	
+}
+.sd-footer-social a {
+	margin-left: 0;
+	margin-right: 10px;	
+}
+.sd-search-button {
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	left: 0;
+	right: auto;	
+}
+.sd-search-input {
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	padding-left: 70px;
+	padding-right: 0;
+}
+.sd-newsletter input[type="text"],
+.sd-newsletter input[type="email"] {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.sd-newsletter input[type="submit"] {
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.sd-recent-widget-thumb {
+	margin-left: 20px;
+	margin-right: 0;	
+}
+.sd-sidebar .widget_archive li::before,
+.sd-sidebar .widget_categories li::before,
+.sd-sidebar .widget_pages li::before,
+.sd-sidebar .widget_meta li::before,
+.sd-sidebar .widget_rss li::before,
+.sd-sidebar .widget_recent_comments li::before,
+.sd-sidebar .widget_recent_entries li::before,
+.sd-sidebar .widget_nav_menu li::before {
+	content: "\f0d9";
+	left: auto;
+	right: 0;	
+}
+.sd-sidebar .widget_archive li,
+.sd-sidebar .widget_categories li,
+.sd-sidebar .widget_pages li,
+.sd-sidebar .widget_meta li,
+.sd-sidebar .widget_rss li,
+.sd-sidebar .widget_recent_comments li,
+.sd-sidebar .widget_recent_entries li,
+.sd-sidebar .widget_nav_menu li {
+	padding-left: 0;
+	padding-right: 15px;	
+}
+.sd-entry-meta {
+	text-align: right;	
+}
+.sd-post-author img {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.sd-review-thumb {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.sd-off-price {
+	left: -15px;
+	right: auto;	
+}
+.sd-reviews-nav ol {
+	margin-left: 0;
+	margin-right: 102px;
+	text-align: right;	
+}
+.sd-extras-colon {
+	padding-left: 20px;
+	padding-right: 0;
+}
+.sd-quantity label::after,
+.sd-select-wrapper label::after {
+	left: 8px;
+	right: auto;	
+}
+.flex-control-paging li a {
+	text-indent: 9999px;	
+}

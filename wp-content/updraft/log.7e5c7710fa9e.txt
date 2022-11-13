@@ -1,0 +1,516 @@
+2046,090 (1) Opened log file at time: Thu, 27 Oct 2022 22:36:03 +0000 on https://krsfrancuski.pl
+2046,092 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 82M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+2046,094 (1) Free space on disk containing Updraft's temporary directory: 35521499 MB
+2046,097 (1) Requesting backup semaphore lock (7e5c7710fa9e)
+2046,100 (1) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+2046,104 (1) Backup run: resumption=1, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (2046s ago), job type=backup, previous check-in=79,99s
+2046,106 (1) Long time past since expected resumption time: approx expected=1666908497,9, now=1666910163,9, diff=1666,1
+2046,112 (1) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2046,117 (1) Scheduling a resumption (2) after 300 seconds (1666910463) in case this run gets aborted
+2046,123 (1) Checking if we have a zip executable available
+2046,127 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+2046,133 (1) Creation of backups of directories: already finished
+2046,135 (1) Saving backup status to database (elements: 8)
+2046,140 (1) Database dump (WordPress DB): Creation was completed already
+2046,143 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2046,148 (1) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2046,153 (1) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2046,157 (1) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2046,159 (1) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+2046,162 (1) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2046,165 (1) Saving backup history. Total backup size: Unknown
+2046,170 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+2046,177 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2046,181 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+2046,533 (1) Google Drive: quota usage: used=15347,9 MB, total=15360 MB, available=12,1 MB
+2046,536 (1) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+2046,538 (1) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip) size is 133648604 b, whereas available quota is only 12670427 b
+2046,877 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2047,221 (1) Google Drive: quota usage: used=15347,9 MB, total=15360 MB, available=12,1 MB
+2047,223 (1) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+2047,226 (1) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip) size is 37435084 b, whereas available quota is only 12670427 b
+2047,549 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2047,902 (1) Google Drive: quota usage: used=15347,9 MB, total=15360 MB, available=12,1 MB
+2047,905 (1) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+2047,907 (1) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 12670427 b
+2048,243 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2048,249 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2048,251 (1) Number of backup sets in history: 4; groups (db): 1
+2048,253 (1) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+2048,253 (1) This backup set is the backup set just made, so will not be deleted.
+2048,253 (1) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+2048,253 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,255 (1) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+2048,255 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,255 (1) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+2048,255 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,255 (1) Number of backup sets in history: 4; groups (files): 1
+2048,258 (1) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+2048,258 (1) This backup set is the backup set just made, so will not be deleted.
+2048,260 (1) This backup set is the backup set just made, so will not be deleted.
+2048,260 (1) This backup set is the backup set just made, so will not be deleted.
+2048,260 (1) This backup set is the backup set just made, so will not be deleted.
+2048,260 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,262 (1) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+2048,262 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,262 (1) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+2048,262 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,262 (1) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+2048,262 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2048,262 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2048,267 (1) Resume backup (7e5c7710fa9e, 1): finish run
+2048,271 (1) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+2048,273 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2048,277 (1) No email will/can be sent - the user has not configured an email address.
+2048,281 (1) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+3616,310 (2) Opened log file at time: Thu, 27 Oct 2022 23:02:14 +0000 on https://krsfrancuski.pl
+3616,313 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 82M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+3616,315 (2) Free space on disk containing Updraft's temporary directory: 35513523 MB
+3616,317 (2) Requesting backup semaphore lock (7e5c7710fa9e)
+3616,320 (2) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+3616,324 (2) Backup run: resumption=2, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (3617s ago), job type=backup
+3616,326 (2) Long time past since expected resumption time: approx expected=1666910463,9, now=1666911734,1, diff=1270,2
+3616,329 (2) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3616,333 (2) Scheduling a resumption (3) after 300 seconds (1666912034) in case this run gets aborted
+3616,338 (2) Checking if we have a zip executable available
+3616,340 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+3616,343 (2) Creation of backups of directories: already finished
+3616,348 (2) Saving backup status to database (elements: 8)
+3616,357 (2) Database dump (WordPress DB): Creation was completed already
+3616,361 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3616,367 (2) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/home/server736453/ftp/KRSfrancuski/wp-content/updraft/backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip)
+3616,370 (2) Recording as successfully uploaded: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip
+3616,375 (2) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/home/server736453/ftp/KRSfrancuski/wp-content/updraft/backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip)
+3616,377 (2) Recording as successfully uploaded: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip
+3616,382 (2) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3616,384 (2) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+3616,386 (2) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+3616,388 (2) Saving backup history. Total backup size: Unknown
+3616,394 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+3616,416 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3616,420 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+3616,879 (2) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+3616,882 (2) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+3616,884 (2) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+3617,221 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3617,227 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3617,229 (2) Number of backup sets in history: 4; groups (db): 1
+3617,232 (2) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+3617,232 (2) This backup set is the backup set just made, so will not be deleted.
+3617,232 (2) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+3617,232 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,235 (2) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3617,235 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,235 (2) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3617,235 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,235 (2) Number of backup sets in history: 4; groups (files): 1
+3617,237 (2) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+3617,237 (2) This backup set is the backup set just made, so will not be deleted.
+3617,240 (2) This backup set is the backup set just made, so will not be deleted.
+3617,240 (2) This backup set is the backup set just made, so will not be deleted.
+3617,240 (2) This backup set is the backup set just made, so will not be deleted.
+3617,240 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,242 (2) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+3617,242 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,242 (2) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3617,242 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,242 (2) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3617,242 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3617,242 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3617,247 (2) Resume backup (7e5c7710fa9e, 2): finish run
+3617,254 (2) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+3617,256 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3617,261 (2) No email will/can be sent - the user has not configured an email address.
+3617,263 (2) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+4135,761 (3) Opened log file at time: Thu, 27 Oct 2022 23:10:53 +0000 on https://krsfrancuski.pl
+4135,763 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 76,2M | 16M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+4135,765 (3) Free space on disk containing Updraft's temporary directory: 35528837 MB
+4135,767 (3) Requesting backup semaphore lock (7e5c7710fa9e)
+4135,769 (3) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+4135,773 (3) Backup run: resumption=3, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (4136s ago), job type=backup
+4135,777 (3) Scheduling a resumption (4) after 300 seconds (1666912553) in case this run gets aborted
+4135,781 (3) Checking if we have a zip executable available
+4135,783 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+4135,785 (3) Creation of backups of directories: already finished
+4135,787 (3) Saving backup status to database (elements: 8)
+4135,791 (3) Database dump (WordPress DB): Creation was completed already
+4135,793 (3) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4135,797 (3) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+4135,799 (3) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+4135,801 (3) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4135,803 (3) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+4135,805 (3) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+4135,807 (3) Saving backup history. Total backup size: Unknown
+4135,812 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+4135,815 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4135,817 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+4136,115 (3) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+4136,117 (3) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+4136,119 (3) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+4136,449 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+4136,455 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+4136,457 (3) Number of backup sets in history: 4; groups (db): 1
+4136,460 (3) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+4136,460 (3) This backup set is the backup set just made, so will not be deleted.
+4136,460 (3) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+4136,460 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,462 (3) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+4136,462 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,462 (3) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+4136,462 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,462 (3) Number of backup sets in history: 4; groups (files): 1
+4136,464 (3) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+4136,464 (3) This backup set is the backup set just made, so will not be deleted.
+4136,466 (3) This backup set is the backup set just made, so will not be deleted.
+4136,466 (3) This backup set is the backup set just made, so will not be deleted.
+4136,466 (3) This backup set is the backup set just made, so will not be deleted.
+4136,466 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,468 (3) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+4136,468 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,468 (3) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+4136,468 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,468 (3) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+4136,468 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4136,468 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4136,472 (3) Resume backup (7e5c7710fa9e, 3): finish run
+4136,476 (3) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+4136,478 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4136,482 (3) No email will/can be sent - the user has not configured an email address.
+4136,483 (3) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+5210,071 (4) Opened log file at time: Thu, 27 Oct 2022 23:28:47 +0000 on https://krsfrancuski.pl
+5210,074 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 4M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+5210,076 (4) Free space on disk containing Updraft's temporary directory: 35525669 MB
+5210,078 (4) Requesting backup semaphore lock (7e5c7710fa9e)
+5210,081 (4) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+5210,086 (4) Backup run: resumption=4, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (5210s ago), job type=backup
+5210,088 (4) Long time past since expected resumption time: approx expected=1666912553,6, now=1666913327,9, diff=774,3
+5210,090 (4) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5210,095 (4) Scheduling a resumption (5) after 300 seconds (1666913627) in case this run gets aborted
+5210,100 (4) Checking if we have a zip executable available
+5210,103 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+5210,108 (4) Creation of backups of directories: already finished
+5210,111 (4) Saving backup status to database (elements: 8)
+5210,125 (4) Database dump (WordPress DB): Creation was completed already
+5210,128 (4) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5210,134 (4) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+5210,136 (4) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+5210,139 (4) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5210,141 (4) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+5210,143 (4) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+5210,145 (4) Saving backup history. Total backup size: Unknown
+5210,150 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+5210,157 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5210,159 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+5210,489 (4) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+5210,492 (4) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+5210,495 (4) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+5210,824 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+5210,829 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+5210,831 (4) Number of backup sets in history: 4; groups (db): 1
+5210,833 (4) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+5210,833 (4) This backup set is the backup set just made, so will not be deleted.
+5210,833 (4) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+5210,833 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,835 (4) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5210,835 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,835 (4) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5210,835 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,835 (4) Number of backup sets in history: 4; groups (files): 1
+5210,837 (4) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+5210,837 (4) This backup set is the backup set just made, so will not be deleted.
+5210,839 (4) This backup set is the backup set just made, so will not be deleted.
+5210,839 (4) This backup set is the backup set just made, so will not be deleted.
+5210,839 (4) This backup set is the backup set just made, so will not be deleted.
+5210,839 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,841 (4) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+5210,841 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,841 (4) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5210,841 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,841 (4) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5210,841 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5210,841 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5210,845 (4) Resume backup (7e5c7710fa9e, 4): finish run
+5210,850 (4) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+5210,852 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5210,856 (4) No email will/can be sent - the user has not configured an email address.
+5210,858 (4) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+5724,538 (5) Opened log file at time: Thu, 27 Oct 2022 23:37:22 +0000 on https://krsfrancuski.pl
+5724,540 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 76M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+5724,542 (5) Free space on disk containing Updraft's temporary directory: 35522858 MB
+5724,544 (5) Requesting backup semaphore lock (7e5c7710fa9e)
+5724,546 (5) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+5724,550 (5) Backup run: resumption=5, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (5725s ago), job type=backup
+5724,553 (5) Scheduling a resumption (6) after 300 seconds (1666914142) in case this run gets aborted
+5724,557 (5) Checking if we have a zip executable available
+5724,559 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+5724,560 (5) Creation of backups of directories: already finished
+5724,562 (5) Saving backup status to database (elements: 8)
+5724,567 (5) Database dump (WordPress DB): Creation was completed already
+5724,569 (5) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5724,574 (5) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+5724,575 (5) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+5724,577 (5) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5724,579 (5) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+5724,581 (5) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+5724,582 (5) Saving backup history. Total backup size: Unknown
+5724,586 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+5724,590 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5724,592 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+5724,931 (5) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+5724,933 (5) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+5724,935 (5) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+5725,348 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+5725,353 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+5725,355 (5) Number of backup sets in history: 4; groups (db): 1
+5725,357 (5) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+5725,357 (5) This backup set is the backup set just made, so will not be deleted.
+5725,357 (5) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+5725,357 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,359 (5) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5725,359 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,359 (5) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5725,359 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,359 (5) Number of backup sets in history: 4; groups (files): 1
+5725,361 (5) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+5725,361 (5) This backup set is the backup set just made, so will not be deleted.
+5725,363 (5) This backup set is the backup set just made, so will not be deleted.
+5725,363 (5) This backup set is the backup set just made, so will not be deleted.
+5725,363 (5) This backup set is the backup set just made, so will not be deleted.
+5725,363 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,365 (5) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+5725,365 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,365 (5) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5725,365 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,365 (5) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5725,365 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5725,365 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5725,369 (5) Resume backup (7e5c7710fa9e, 5): finish run
+5725,373 (5) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+5725,375 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5725,379 (5) No email will/can be sent - the user has not configured an email address.
+5725,381 (5) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+6423,597 (6) Opened log file at time: Thu, 27 Oct 2022 23:49:01 +0000 on https://krsfrancuski.pl
+6423,599 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 50M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+6423,602 (6) Free space on disk containing Updraft's temporary directory: 35519820 MB
+6423,604 (6) Requesting backup semaphore lock (7e5c7710fa9e)
+6423,607 (6) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+6423,611 (6) Backup run: resumption=6, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (6424s ago), job type=backup
+6423,615 (6) Scheduling a resumption (7) after 300 seconds (1666914841) in case this run gets aborted
+6423,619 (6) Checking if we have a zip executable available
+6423,621 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+6423,623 (6) Creation of backups of directories: already finished
+6423,625 (6) Saving backup status to database (elements: 8)
+6423,629 (6) Database dump (WordPress DB): Creation was completed already
+6423,632 (6) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+6423,636 (6) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+6423,639 (6) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+6423,641 (6) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6423,643 (6) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+6423,645 (6) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+6423,647 (6) Saving backup history. Total backup size: Unknown
+6423,651 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+6423,656 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6423,658 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+6424,040 (6) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+6424,042 (6) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+6424,044 (6) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+6424,467 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+6424,472 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+6424,474 (6) Number of backup sets in history: 4; groups (db): 1
+6424,476 (6) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+6424,476 (6) This backup set is the backup set just made, so will not be deleted.
+6424,476 (6) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+6424,476 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,478 (6) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+6424,478 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,478 (6) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+6424,478 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,478 (6) Number of backup sets in history: 4; groups (files): 1
+6424,479 (6) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+6424,479 (6) This backup set is the backup set just made, so will not be deleted.
+6424,481 (6) This backup set is the backup set just made, so will not be deleted.
+6424,481 (6) This backup set is the backup set just made, so will not be deleted.
+6424,481 (6) This backup set is the backup set just made, so will not be deleted.
+6424,481 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,483 (6) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+6424,483 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,483 (6) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+6424,483 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,483 (6) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+6424,483 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6424,483 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+6424,487 (6) Resume backup (7e5c7710fa9e, 6): finish run
+6424,491 (6) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+6424,493 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6424,497 (6) No email will/can be sent - the user has not configured an email address.
+6424,498 (6) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+8593,974 (7) Opened log file at time: Fri, 28 Oct 2022 00:25:11 +0000 on https://krsfrancuski.pl
+8593,976 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 76,2M | 40M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+8593,979 (7) Free space on disk containing Updraft's temporary directory: 35522301 MB
+8593,981 (7) Requesting backup semaphore lock (7e5c7710fa9e)
+8593,983 (7) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+8593,987 (7) Backup run: resumption=7, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (8594s ago), job type=backup
+8593,989 (7) Long time past since expected resumption time: approx expected=1666914841,4, now=1666916711,8, diff=1870,4
+8593,990 (7) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8593,994 (7) Scheduling a resumption (8) after 300 seconds (1666917011) in case this run gets aborted
+8593,998 (7) Checking if we have a zip executable available
+8594,000 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+8594,002 (7) Creation of backups of directories: already finished
+8594,004 (7) Saving backup status to database (elements: 8)
+8594,008 (7) Database dump (WordPress DB): Creation was completed already
+8594,010 (7) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+8594,014 (7) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+8594,016 (7) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+8594,018 (7) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8594,020 (7) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+8594,022 (7) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+8594,023 (7) Saving backup history. Total backup size: Unknown
+8594,028 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+8594,032 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+8594,034 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+8594,378 (7) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+8594,381 (7) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+8594,383 (7) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+8594,717 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+8594,734 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+8594,737 (7) Number of backup sets in history: 4; groups (db): 1
+8594,738 (7) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+8594,738 (7) This backup set is the backup set just made, so will not be deleted.
+8594,738 (7) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+8594,739 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,740 (7) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+8594,740 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,740 (7) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+8594,740 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,740 (7) Number of backup sets in history: 4; groups (files): 1
+8594,742 (7) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+8594,742 (7) This backup set is the backup set just made, so will not be deleted.
+8594,744 (7) This backup set is the backup set just made, so will not be deleted.
+8594,744 (7) This backup set is the backup set just made, so will not be deleted.
+8594,744 (7) This backup set is the backup set just made, so will not be deleted.
+8594,744 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,746 (7) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+8594,746 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,746 (7) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+8594,746 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,746 (7) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+8594,746 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+8594,746 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+8594,750 (7) Resume backup (7e5c7710fa9e, 7): finish run
+8594,754 (7) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+8594,756 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8594,760 (7) No email will/can be sent - the user has not configured an email address.
+8594,762 (7) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+10250,215 (8) Opened log file at time: Fri, 28 Oct 2022 00:52:48 +0000 on https://krsfrancuski.pl
+10250,217 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 75,9M | 30M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+10250,219 (8) Free space on disk containing Updraft's temporary directory: 35528281 MB
+10250,221 (8) Requesting backup semaphore lock (7e5c7710fa9e)
+10250,223 (8) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+10250,227 (8) Backup run: resumption=8, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (10251s ago), job type=backup
+10250,228 (8) Long time past since expected resumption time: approx expected=1666917011,8, now=1666918368,1, diff=1356,2
+10250,230 (8) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+10250,234 (8) Scheduling a resumption (9) after 300 seconds (1666918668) in case this run gets aborted
+10250,238 (8) Checking if we have a zip executable available
+10250,240 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+10250,242 (8) Creation of backups of directories: already finished
+10250,244 (8) Saving backup status to database (elements: 8)
+10250,248 (8) Database dump (WordPress DB): Creation was completed already
+10250,250 (8) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+10250,254 (8) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+10250,256 (8) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+10250,258 (8) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10250,260 (8) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+10250,262 (8) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+10250,264 (8) Saving backup history. Total backup size: Unknown
+10250,269 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+10250,273 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+10250,275 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+10250,616 (8) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+10250,618 (8) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+10250,620 (8) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+10250,937 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+10250,942 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+10250,944 (8) Number of backup sets in history: 4; groups (db): 1
+10250,946 (8) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+10250,946 (8) This backup set is the backup set just made, so will not be deleted.
+10250,946 (8) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+10250,946 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,948 (8) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+10250,948 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,948 (8) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+10250,948 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,948 (8) Number of backup sets in history: 4; groups (files): 1
+10250,950 (8) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+10250,950 (8) This backup set is the backup set just made, so will not be deleted.
+10250,952 (8) This backup set is the backup set just made, so will not be deleted.
+10250,952 (8) This backup set is the backup set just made, so will not be deleted.
+10250,952 (8) This backup set is the backup set just made, so will not be deleted.
+10250,952 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,954 (8) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+10250,954 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,954 (8) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+10250,954 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,954 (8) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+10250,954 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10250,954 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+10250,958 (8) Resume backup (7e5c7710fa9e, 8): finish run
+10250,962 (8) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+10250,964 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10250,968 (8) No email will/can be sent - the user has not configured an email address.
+10250,970 (8) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+12437,766 (9) Opened log file at time: Fri, 28 Oct 2022 01:29:15 +0000 on http://krsfrancuski.pl
+12437,768 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.11 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 76,2M | 36M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+12437,770 (9) Free space on disk containing Updraft's temporary directory: 35539622 MB
+12437,771 (9) Requesting backup semaphore lock (7e5c7710fa9e)
+12437,773 (9) [Info] Lock (updraft_lock_0bd1ce170eb8, krsen_options) acquired
+12437,777 (9) Backup run: resumption=9, nonce=7e5c7710fa9e, file_nonce=7e5c7710fa9e begun at=1666908117 (12438s ago), job type=backup
+12437,779 (9) Long time past since expected resumption time: approx expected=1666918668,1, now=1666920555,6, diff=1887,6
+12437,780 (9) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+12437,784 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+12437,788 (9) Scheduling a resumption (10) after 300 seconds (1666920855); but the job will then be aborted unless something happens this time
+12437,792 (9) Creation of backups of directories: already finished
+12437,794 (9) Saving backup status to database (elements: 8)
+12437,798 (9) Database dump (WordPress DB): Creation was completed already
+12437,800 (9) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+12437,804 (9) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-plugins.zip: plugins: This file has already been successfully uploaded
+12437,806 (9) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-themes.zip: themes: This file has already been successfully uploaded
+12437,808 (9) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+12437,810 (9) backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-others.zip: others: This file has already been successfully uploaded
+12437,812 (9) backup_2022-10-28-0001_KRS_francuski_7e5c7710fa9e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+12437,814 (9) Saving backup history. Total backup size: Unknown
+12437,818 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+12437,822 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+12437,824 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+12438,165 (9) Google Drive: quota usage: used=15334,6 MB, total=15360 MB, available=25,4 MB
+12438,168 (9) Google Drive: backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+12438,170 (9) Google Drive: File upload expected to fail: file (backup_2022-10-28-0001_KRS_francuski_0bd1ce170eb8-uploads.zip) size is 61508498 b, whereas available quota is only 26606187 b
+12438,498 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+12438,503 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+12438,505 (9) Number of backup sets in history: 4; groups (db): 1
+12438,507 (9) Examining (for databases) backup set with group_id=0, nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+12438,507 (9) This backup set is the backup set just made, so will not be deleted.
+12438,507 (9) Examining (for databases) backup set with group_id=0, nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+12438,507 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,508 (9) Examining (for databases) backup set with group_id=0, nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+12438,508 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,509 (9) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+12438,509 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,509 (9) Number of backup sets in history: 4; groups (files): 1
+12438,510 (9) Examining (for files) backup set with nonce=7e5c7710fa9e, datestamp=1666908117 (Oct 27 2022 22:01:57)
+12438,510 (9) This backup set is the backup set just made, so will not be deleted.
+12438,512 (9) This backup set is the backup set just made, so will not be deleted.
+12438,512 (9) This backup set is the backup set just made, so will not be deleted.
+12438,512 (9) This backup set is the backup set just made, so will not be deleted.
+12438,512 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,514 (9) Examining (for files) backup set with nonce=9d002baf4778, datestamp=1666304362 (Oct 20 2022 22:19:22)
+12438,514 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,514 (9) Examining (for files) backup set with nonce=df553b645b3c, datestamp=1665699154 (Oct 13 2022 22:12:34)
+12438,514 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,514 (9) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+12438,514 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+12438,514 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+12438,518 (9) Resume backup (7e5c7710fa9e, 9): finish run
+12438,522 (9) [Info] Lock option (updraft_lock_0bd1ce170eb8, krsen_options) released
+12438,524 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+12438,528 (9) No email will/can be sent - the user has not configured an email address.
+12438,530 (9) Próba przywracania zakończona niepomyślnie.

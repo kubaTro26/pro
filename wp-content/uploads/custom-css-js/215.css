@@ -1,0 +1,31 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*.container.sd-header-content {
+    display: none;
+}*/
+.btn-info, .btn-info.disabled, {
+    background: #dd3333 !important;
+}
+.btn-info:hover, .btn-info.disabled:hover {
+    background: #c32f2f !important;
+}
+a.bt-top.btn.btn-circle.btn-lg.btn-info.visible {
+    background: #dd3333;
+}
+.h16-topbar {
+    display: none;
+}
+.h16-info-bar {
+    padding: 0px 0px;
+}
+nav.navbar.navbar-expand-lg.h16-nav {
+    display: none;
+}
+.f4-bottom-bar {
+    display: none;
+}
+@media (max-width: 1100px) {
+  body, html {
+    overflow-x:hidden !important;
+  }}</style>
+<!-- end Simple Custom CSS and JS -->

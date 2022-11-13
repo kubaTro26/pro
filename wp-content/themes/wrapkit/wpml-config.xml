@@ -1,0 +1,65 @@
+<wpml-config>
+	<!-- SD Custom Post Types -->
+	<custom-types>
+		<custom-type translate="1">classes</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+	</custom-types>
+	<!-- SD Taxonomies -->
+	<taxonomies>
+		<taxonomy translate="1">class-category</taxonomy>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+	</taxonomies>
+	<!-- SD Admin Strings -->
+	 <admin-texts>
+        <key name="wrapkit_data">
+			<key name="sd_h4_button" />
+			<key name="sd_h2_link1" />
+			<key name="sd_h2_link2" />
+			<key name="sd_h2_link3" />
+			<key name="sd_h4_email_text" />
+			<key name="sd_h4_phone_text" />
+			<key name="sd_h5_link1" />
+			<key name="sd_h5_divider_text" />
+			<key name="sd_h5_link2" />
+			<key name="sd_h6_top_bar_text" />
+			<key name="sd_h6_link1" />
+			<key name="sd_h6_link2" />
+			<key name="sd_h6_button1" />
+			<key name="sd_h6_button2" />
+			<key name="sd_h7_top_bar_text" />
+			<key name="sd_h7_button" />
+			<key name="sd_h9_link1" />
+			<key name="sd_h9_link2" />
+			<key name="sd_h9_button" />
+			<key name="sd_h10_phone_text" />
+			<key name="sd_h10_button" />
+			<key name="sd_h11_top_bar_text" />
+			<key name="sd_h11_hours" />
+			<key name="sd_h11_email_text" />
+			<key name="sd_h11_phone_text" />
+			<key name="sd_h11_button" />
+			<key name="sd_h12_address-textarea" />
+			<key name="sd_h12_phone_text" />
+			<key name="sd_h12_button" />
+			<key name="sd_h13_hours-textarea" />
+			<key name="sd_h13_phone_text" />
+			<key name="sd_h13_button" />
+			<key name="sd_h14_button" />
+			<key name="sd_h14_phone_text" />
+			<key name="sd_h14_copyright-textarea" />
+			<key name="sd_f1_cta" />
+			<key name="sd_f3_text-textarea" />
+			<key name="sd_f3_news_btn" />
+			<key name="sd_blog_next" />
+			<key name="sd_blog_prev" />
+			<key name="sd_top_text" />
+			<key name="sd_blog_single_next" />
+			<key name="sd_blog_single_prev" />
+			<key name="sd_404_title" />
+			<key name="sd_404_content" />
+			<key name="sd_404_button_text" />
+			<key name="sd_copyright_text" />
+			
+		</key>
+    </admin-texts>
+</wpml-config>

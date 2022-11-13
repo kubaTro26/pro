@@ -1,0 +1,11 @@
+.redux-dev-mode-notice-container.redux-dev-qtip { display: none; }
+.rAds {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+#share_config,
+.redux-messageredux-notice,
+.redux-notice {
+    display: none !important;
+}

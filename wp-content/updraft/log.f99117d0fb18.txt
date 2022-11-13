@@ -1,0 +1,1401 @@
+0000,004 (0) Opened log file at time: Thu, 13 Oct 2022 22:12:34 +0000 on https://krsfrancuski.pl
+0000,007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 50M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+0000,010 (0) Free space on disk containing Updraft's temporary directory: 34226423 MB
+0000,018 (0) Deleting old log file: log.51862da5e7ce.txt
+0000,021 (0) Deleting old temporary file: backup_2022-10-07-0006_KRS_francuski_d05fa2af6938-themes.zip.list.tmp
+0000,022 (0) Deleting old temporary file: backup_2022-10-07-0006_KRS_francuski_d05fa2af6938-uploads.zip.list.tmp
+0000,029 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000,032 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000,047 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1665093962, seconds_ago=605192)
+0000,050 (0) Set semaphore last lock (fd) time to 2022-10-13 22:12:34
+0000,053 (0) Semaphore lock (fd) complete
+0000,059 (0) Backup run: resumption=0, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (0s ago), job type=backup
+0000,063 (0) Scheduling a resumption (1) after 300 seconds (1665699454) in case this run gets aborted
+0000,078 (0) Checking if we have a zip executable available
+0000,081 (0) Testing: /usr/bin/zip
+0000,090 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000,093 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000,095 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000,098 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000,100 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000,112 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000,115 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000,127 (0) Working binary zip found: /usr/bin/zip
+0000,132 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000,134 (0) Creation of backups of directories: beginning
+0000,144 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006,847 (0) Total entities for the zip file: 3378 directories, 20608 files (0 skipped as non-modified), 288,6 MB
+0006,853 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006,917 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: size is now: 0,80 MB
+0006,968 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 100 files added (on-disk size: 797,1 KB)
+0007,018 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 200 files added (on-disk size: 797,1 KB)
+0007,067 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 300 files added (on-disk size: 797,1 KB)
+0007,116 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 400 files added (on-disk size: 797,1 KB)
+0007,166 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 500 files added (on-disk size: 797,1 KB)
+0007,169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 20608 files batched, 500 (501) added so far); re-opening (prior size: 797,1 KB)
+0007,792 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: size is now: 13,30 MB
+0007,798 (0) A useful amount of data was added after this amount of zip processing: 1,3 s (normalised: 1,3 s, rate: 20338,4 KB/s)
+0007,803 (0) Performance is good - will increase the amount of data we attempt to batch (time=1,258898973465, normalised_time=1,2587052777447, max_time=7,7967720031738, data points known=1, old_max_bytes=26214400, new_max_bytes=124958878)
+0007,853 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 600 files added (on-disk size: 13661,8 KB)
+0007,903 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 700 files added (on-disk size: 13661,8 KB)
+0007,954 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 800 files added (on-disk size: 13661,8 KB)
+0008,007 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 900 files added (on-disk size: 13661,8 KB)
+0008,064 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1000 files added (on-disk size: 13661,8 KB)
+0008,118 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1100 files added (on-disk size: 13661,8 KB)
+0008,168 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1200 files added (on-disk size: 13661,8 KB)
+0008,217 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1300 files added (on-disk size: 13661,8 KB)
+0008,267 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1400 files added (on-disk size: 13661,8 KB)
+0008,318 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1500 files added (on-disk size: 13661,8 KB)
+0008,322 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10,2 MB, 20608 files batched, 1001 (1502) added so far); re-opening (prior size: 13661,8 KB)
+0009,213 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: size is now: 16,30 MB
+0009,261 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1600 files added (on-disk size: 16697,6 KB)
+0009,311 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1700 files added (on-disk size: 16697,6 KB)
+0009,379 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1800 files added (on-disk size: 16697,6 KB)
+0009,448 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 1900 files added (on-disk size: 16697,6 KB)
+0009,493 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2000 files added (on-disk size: 16697,6 KB)
+0009,542 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2100 files added (on-disk size: 16697,6 KB)
+0009,590 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2200 files added (on-disk size: 16697,6 KB)
+0009,640 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2300 files added (on-disk size: 16697,6 KB)
+0009,692 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2400 files added (on-disk size: 16697,6 KB)
+0009,751 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2500 files added (on-disk size: 16697,6 KB)
+0009,755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21,3 MB, 20608 files batched, 1001 (2503) added so far); re-opening (prior size: 16697,6 KB)
+0011,131 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: size is now: 25,70 MB
+0011,185 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2600 files added (on-disk size: 26312 KB)
+0011,243 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2700 files added (on-disk size: 26312 KB)
+0011,294 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2800 files added (on-disk size: 26312 KB)
+0011,358 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 2900 files added (on-disk size: 26312 KB)
+0011,416 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3000 files added (on-disk size: 26312 KB)
+0011,485 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3100 files added (on-disk size: 26312 KB)
+0011,551 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3200 files added (on-disk size: 26312 KB)
+0011,616 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3300 files added (on-disk size: 26312 KB)
+0011,687 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3400 files added (on-disk size: 26312 KB)
+0011,751 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3500 files added (on-disk size: 26312 KB)
+0011,757 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5,8 MB, 20608 files batched, 1001 (3504) added so far); re-opening (prior size: 26312 KB)
+0012,696 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3600 files added (on-disk size: 28381,9 KB)
+0012,749 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3700 files added (on-disk size: 28381,9 KB)
+0012,804 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3800 files added (on-disk size: 28381,9 KB)
+0012,866 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 3900 files added (on-disk size: 28381,9 KB)
+0012,927 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4000 files added (on-disk size: 28381,9 KB)
+0012,988 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4100 files added (on-disk size: 28381,9 KB)
+0013,046 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4200 files added (on-disk size: 28381,9 KB)
+0013,105 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4300 files added (on-disk size: 28381,9 KB)
+0013,168 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4400 files added (on-disk size: 28381,9 KB)
+0013,239 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4500 files added (on-disk size: 28381,9 KB)
+0013,247 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7,8 MB, 20608 files batched, 1001 (4505) added so far); re-opening (prior size: 28381,9 KB)
+0014,286 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4600 files added (on-disk size: 32379,1 KB)
+0014,347 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4700 files added (on-disk size: 32379,1 KB)
+0014,408 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4800 files added (on-disk size: 32379,1 KB)
+0014,472 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 4900 files added (on-disk size: 32379,1 KB)
+0014,537 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5000 files added (on-disk size: 32379,1 KB)
+0014,603 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5100 files added (on-disk size: 32379,1 KB)
+0014,664 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5200 files added (on-disk size: 32379,1 KB)
+0014,730 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5300 files added (on-disk size: 32379,1 KB)
+0014,795 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5400 files added (on-disk size: 32379,1 KB)
+0014,860 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5500 files added (on-disk size: 32379,1 KB)
+0014,867 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13,4 MB, 20608 files batched, 1001 (5506) added so far); re-opening (prior size: 32379,1 KB)
+0015,990 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5600 files added (on-disk size: 38091,7 KB)
+0016,051 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5700 files added (on-disk size: 38091,7 KB)
+0016,114 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5800 files added (on-disk size: 38091,7 KB)
+0016,180 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 5900 files added (on-disk size: 38091,7 KB)
+0016,251 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6000 files added (on-disk size: 38091,7 KB)
+0016,311 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6100 files added (on-disk size: 38091,7 KB)
+0016,373 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6200 files added (on-disk size: 38091,7 KB)
+0016,439 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6300 files added (on-disk size: 38091,7 KB)
+0016,502 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6400 files added (on-disk size: 38091,7 KB)
+0016,566 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6500 files added (on-disk size: 38091,7 KB)
+0016,573 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11,3 MB, 20608 files batched, 1001 (6507) added so far); re-opening (prior size: 38091,7 KB)
+0017,754 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6600 files added (on-disk size: 41589 KB)
+0017,816 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6700 files added (on-disk size: 41589 KB)
+0017,877 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6800 files added (on-disk size: 41589 KB)
+0018,138 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 6900 files added (on-disk size: 41589 KB)
+0018,197 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7000 files added (on-disk size: 41589 KB)
+0018,258 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7100 files added (on-disk size: 41589 KB)
+0018,327 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7200 files added (on-disk size: 41589 KB)
+0018,390 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7300 files added (on-disk size: 41589 KB)
+0018,454 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7400 files added (on-disk size: 41589 KB)
+0018,518 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7500 files added (on-disk size: 41589 KB)
+0018,526 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6,7 MB, 20608 files batched, 1001 (7508) added so far); re-opening (prior size: 41589 KB)
+0019,639 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7600 files added (on-disk size: 43944,5 KB)
+0019,694 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7700 files added (on-disk size: 43944,5 KB)
+0019,752 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7800 files added (on-disk size: 43944,5 KB)
+0019,816 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 7900 files added (on-disk size: 43944,5 KB)
+0019,879 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8000 files added (on-disk size: 43944,5 KB)
+0019,946 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8100 files added (on-disk size: 43944,5 KB)
+0020,016 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8200 files added (on-disk size: 43944,5 KB)
+0020,087 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8300 files added (on-disk size: 43944,5 KB)
+0020,150 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8400 files added (on-disk size: 43944,5 KB)
+0020,212 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8500 files added (on-disk size: 43944,5 KB)
+0020,219 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3,6 MB, 20608 files batched, 1001 (8509) added so far); re-opening (prior size: 43944,5 KB)
+0021,179 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8600 files added (on-disk size: 45975,2 KB)
+0021,242 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8700 files added (on-disk size: 45975,2 KB)
+0021,307 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8800 files added (on-disk size: 45975,2 KB)
+0021,373 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 8900 files added (on-disk size: 45975,2 KB)
+0021,441 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9000 files added (on-disk size: 45975,2 KB)
+0021,509 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9100 files added (on-disk size: 45975,2 KB)
+0021,591 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9200 files added (on-disk size: 45975,2 KB)
+0021,650 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9300 files added (on-disk size: 45975,2 KB)
+0021,723 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9400 files added (on-disk size: 45975,2 KB)
+0021,789 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9500 files added (on-disk size: 45975,2 KB)
+0021,799 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11,6 MB, 20608 files batched, 1001 (9510) added so far); re-opening (prior size: 45975,2 KB)
+0023,048 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9600 files added (on-disk size: 49774,4 KB)
+0023,112 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9700 files added (on-disk size: 49774,4 KB)
+0023,179 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9800 files added (on-disk size: 49774,4 KB)
+0023,242 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 9900 files added (on-disk size: 49774,4 KB)
+0023,306 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10000 files added (on-disk size: 49774,4 KB)
+0023,364 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10100 files added (on-disk size: 49774,4 KB)
+0023,420 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10200 files added (on-disk size: 49774,4 KB)
+0023,483 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10300 files added (on-disk size: 49774,4 KB)
+0023,541 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10400 files added (on-disk size: 49774,4 KB)
+0023,606 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10500 files added (on-disk size: 49774,4 KB)
+0023,616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17,5 MB, 20608 files batched, 1001 (10511) added so far); re-opening (prior size: 49774,4 KB)
+0025,033 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10600 files added (on-disk size: 55861,3 KB)
+0025,098 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10700 files added (on-disk size: 55861,3 KB)
+0025,160 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10800 files added (on-disk size: 55861,3 KB)
+0025,225 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 10900 files added (on-disk size: 55861,3 KB)
+0025,291 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11000 files added (on-disk size: 55861,3 KB)
+0025,356 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11100 files added (on-disk size: 55861,3 KB)
+0025,424 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11200 files added (on-disk size: 55861,3 KB)
+0025,492 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11300 files added (on-disk size: 55861,3 KB)
+0025,559 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11400 files added (on-disk size: 55861,3 KB)
+0025,635 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11500 files added (on-disk size: 55861,3 KB)
+0025,646 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18 MB, 20608 files batched, 1001 (11512) added so far); re-opening (prior size: 55861,3 KB)
+0027,317 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11600 files added (on-disk size: 62425 KB)
+0027,405 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11700 files added (on-disk size: 62425 KB)
+0027,464 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11800 files added (on-disk size: 62425 KB)
+0027,526 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 11900 files added (on-disk size: 62425 KB)
+0027,590 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12000 files added (on-disk size: 62425 KB)
+0027,648 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12100 files added (on-disk size: 62425 KB)
+0027,709 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12200 files added (on-disk size: 62425 KB)
+0027,771 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12300 files added (on-disk size: 62425 KB)
+0027,834 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12400 files added (on-disk size: 62425 KB)
+0027,899 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12500 files added (on-disk size: 62425 KB)
+0027,912 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17 MB, 20608 files batched, 1001 (12513) added so far); re-opening (prior size: 62425 KB)
+0029,282 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12600 files added (on-disk size: 68303,2 KB)
+0029,340 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12700 files added (on-disk size: 68303,2 KB)
+0029,397 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12800 files added (on-disk size: 68303,2 KB)
+0029,452 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 12900 files added (on-disk size: 68303,2 KB)
+0029,500 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13000 files added (on-disk size: 68303,2 KB)
+0029,555 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13100 files added (on-disk size: 68303,2 KB)
+0029,604 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13200 files added (on-disk size: 68303,2 KB)
+0029,656 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13300 files added (on-disk size: 68303,2 KB)
+0029,715 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13400 files added (on-disk size: 68303,2 KB)
+0029,774 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13500 files added (on-disk size: 68303,2 KB)
+0029,786 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5,4 MB, 20608 files batched, 1001 (13514) added so far); re-opening (prior size: 68303,2 KB)
+0031,263 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13600 files added (on-disk size: 70007,6 KB)
+0031,320 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13700 files added (on-disk size: 70007,6 KB)
+0031,380 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13800 files added (on-disk size: 70007,6 KB)
+0031,443 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 13900 files added (on-disk size: 70007,6 KB)
+0031,507 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14000 files added (on-disk size: 70007,6 KB)
+0031,574 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14100 files added (on-disk size: 70007,6 KB)
+0031,640 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14200 files added (on-disk size: 70007,6 KB)
+0031,704 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14300 files added (on-disk size: 70007,6 KB)
+0031,769 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14400 files added (on-disk size: 70007,6 KB)
+0031,829 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14500 files added (on-disk size: 70007,6 KB)
+0031,840 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (43,5 MB, 20608 files batched, 1001 (14515) added so far); re-opening (prior size: 70007,6 KB)
+0033,945 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: size is now: 103,30 MB
+0034,004 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14600 files added (on-disk size: 105789,9 KB)
+0034,069 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14700 files added (on-disk size: 105789,9 KB)
+0034,136 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14800 files added (on-disk size: 105789,9 KB)
+0034,201 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 14900 files added (on-disk size: 105789,9 KB)
+0034,266 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15000 files added (on-disk size: 105789,9 KB)
+0034,332 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15100 files added (on-disk size: 105789,9 KB)
+0034,398 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15200 files added (on-disk size: 105789,9 KB)
+0034,464 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15300 files added (on-disk size: 105789,9 KB)
+0034,526 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15400 files added (on-disk size: 105789,9 KB)
+0034,598 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15500 files added (on-disk size: 105789,9 KB)
+0034,613 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8,3 MB, 20608 files batched, 1001 (15516) added so far); re-opening (prior size: 105789,9 KB)
+0035,901 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15600 files added (on-disk size: 108708,8 KB)
+0035,967 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15700 files added (on-disk size: 108708,8 KB)
+0036,030 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15800 files added (on-disk size: 108708,8 KB)
+0036,095 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 15900 files added (on-disk size: 108708,8 KB)
+0036,164 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16000 files added (on-disk size: 108708,8 KB)
+0036,233 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16100 files added (on-disk size: 108708,8 KB)
+0036,296 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16200 files added (on-disk size: 108708,8 KB)
+0036,363 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16300 files added (on-disk size: 108708,8 KB)
+0036,431 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16400 files added (on-disk size: 108708,8 KB)
+0036,506 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16500 files added (on-disk size: 108708,8 KB)
+0036,518 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16 MB, 20608 files batched, 1001 (16517) added so far); re-opening (prior size: 108708,8 KB)
+0038,019 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16600 files added (on-disk size: 113189 KB)
+0038,096 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16700 files added (on-disk size: 113189 KB)
+0038,167 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16800 files added (on-disk size: 113189 KB)
+0038,249 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 16900 files added (on-disk size: 113189 KB)
+0038,312 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17000 files added (on-disk size: 113189 KB)
+0038,389 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17100 files added (on-disk size: 113189 KB)
+0038,458 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17200 files added (on-disk size: 113189 KB)
+0038,527 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17300 files added (on-disk size: 113189 KB)
+0038,595 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17400 files added (on-disk size: 113189 KB)
+0038,662 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17500 files added (on-disk size: 113189 KB)
+0038,885 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21,8 MB, 20608 files batched, 1001 (17518) added so far); re-opening (prior size: 113189 KB)
+0040,538 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17600 files added (on-disk size: 119464,2 KB)
+0040,599 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17700 files added (on-disk size: 119464,2 KB)
+0040,662 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17800 files added (on-disk size: 119464,2 KB)
+0040,725 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 17900 files added (on-disk size: 119464,2 KB)
+0040,793 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18000 files added (on-disk size: 119464,2 KB)
+0040,866 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18100 files added (on-disk size: 119464,2 KB)
+0040,933 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18200 files added (on-disk size: 119464,2 KB)
+0041,000 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18300 files added (on-disk size: 119464,2 KB)
+0041,079 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18400 files added (on-disk size: 119464,2 KB)
+0041,143 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18500 files added (on-disk size: 119464,2 KB)
+0041,158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9,1 MB, 20608 files batched, 1001 (18519) added so far); re-opening (prior size: 119464,2 KB)
+0042,518 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18600 files added (on-disk size: 122383,2 KB)
+0042,586 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18700 files added (on-disk size: 122383,2 KB)
+0042,652 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18800 files added (on-disk size: 122383,2 KB)
+0042,720 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 18900 files added (on-disk size: 122383,2 KB)
+0042,795 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19000 files added (on-disk size: 122383,2 KB)
+0042,863 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19100 files added (on-disk size: 122383,2 KB)
+0042,940 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19200 files added (on-disk size: 122383,2 KB)
+0043,005 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19300 files added (on-disk size: 122383,2 KB)
+0043,075 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19400 files added (on-disk size: 122383,2 KB)
+0043,141 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19500 files added (on-disk size: 122383,2 KB)
+0043,158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5 MB, 20608 files batched, 1001 (19520) added so far); re-opening (prior size: 122383,2 KB)
+0044,404 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19600 files added (on-disk size: 125159,2 KB)
+0044,464 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19700 files added (on-disk size: 125159,2 KB)
+0044,528 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19800 files added (on-disk size: 125159,2 KB)
+0044,588 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 19900 files added (on-disk size: 125159,2 KB)
+0044,646 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20000 files added (on-disk size: 125159,2 KB)
+0044,712 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20100 files added (on-disk size: 125159,2 KB)
+0044,788 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20200 files added (on-disk size: 125159,2 KB)
+0044,851 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20300 files added (on-disk size: 125159,2 KB)
+0044,911 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20400 files added (on-disk size: 125159,2 KB)
+0044,974 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20500 files added (on-disk size: 125159,2 KB)
+0044,991 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6,7 MB, 20608 files batched, 1001 (20521) added so far); re-opening (prior size: 125159,2 KB)
+0046,195 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.tmp: 20600 files added (on-disk size: 129695,2 KB)
+0046,906 (0) Creating zip file manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.list-temp.tmp)
+0046,927 (0) Successfully created zip file manifest (size: 1836507)
+0047,845 (0) Created plugins zip (0) - 130516,2 KB in 47,7 s (2736,4 KB/s) (sha1: d99848c181f7102ee183fcbe11599384dfc5768f, sha256: 9484ebdb51141d9fb10ec62d88440926add2a7ccfdf5bd7e7b04dc43d8fcc35a)
+0047,853 (0) Beginning creation of dump of themes (split every: 400 MB)
+0048,071 (0) Total entities for the zip file: 98 directories, 693 files (0 skipped as non-modified), 44,2 MB
+0048,131 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0048,189 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0048,246 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0048,302 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0048,371 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0048,419 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0049,577 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.tmp: size is now: 35,70 MB
+0049,590 (0) Creating zip file manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.list-temp.tmp)
+0049,594 (0) Successfully created zip file manifest (size: 49230)
+0049,856 (0) Created themes zip (0) - 36557,7 KB in 2 s (18291,8 KB/s) (sha1: 15fd5656ea7e8c2c81f267a9e0852e2db37afe80, sha256: 439632d8a6bcdc54315f4a30c1d70ec2be3c995583d4ff22aa18d2ae1f6ce1e4)
+0049,864 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0049,866 (0) Looking for candidates to backup in: /home/server736453/ftp/KRSfrancuski/wp-content/uploads
+0049,869 (0) finding files: js_composer: adding to list (1)
+0049,871 (0) finding files: db-backup: adding to list (2)
+0049,874 (0) finding files: 2018: adding to list (3)
+0049,876 (0) finding files: 2020: adding to list (4)
+0049,878 (0) finding files: cache: adding to list (5)
+0049,880 (0) finding files: wp-cerber-LXNHZIWYC7V504MK: adding to list (6)
+0049,882 (0) finding files: .htaccess: adding to list (7)
+0049,884 (0) finding files: go_pricing_data: adding to list (8)
+0049,887 (0) finding files: custom-css-js: adding to list (9)
+0049,889 (0) finding files: 2019: adding to list (10)
+0049,891 (0) finding files: smile_fonts: adding to list (11)
+0049,893 (0) finding files: 2021: adding to list (12)
+0049,896 (0) finding files: redux: adding to list (13)
+0049,898 (0) finding files: wpcf7_captcha: adding to list (14)
+0049,901 (0) finding files: 2022: adding to list (15)
+0049,903 (0) finding files: revslider: adding to list (16)
+0049,905 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0051,071 (0) Total entities for the zip file: 681 directories, 3602 files (0 skipped as non-modified), 59,1 MB
+0051,127 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0051,183 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0051,235 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0051,287 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0051,337 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0051,387 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0051,439 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0051,491 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0051,545 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0051,616 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0051,620 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13,5 MB, 3602 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0052,456 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: size is now: 13,80 MB
+0052,503 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1100 files added (on-disk size: 14143,1 KB)
+0052,548 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1200 files added (on-disk size: 14143,1 KB)
+0052,593 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1300 files added (on-disk size: 14143,1 KB)
+0052,640 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1400 files added (on-disk size: 14143,1 KB)
+0052,688 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1500 files added (on-disk size: 14143,1 KB)
+0052,741 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1600 files added (on-disk size: 14143,1 KB)
+0052,793 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1700 files added (on-disk size: 14143,1 KB)
+0052,852 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1800 files added (on-disk size: 14143,1 KB)
+0052,911 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 1900 files added (on-disk size: 14143,1 KB)
+0052,963 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2000 files added (on-disk size: 14143,1 KB)
+0052,967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18,8 MB, 3602 files batched, 1001 (2002) added so far); re-opening (prior size: 14143,1 KB)
+0053,896 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: size is now: 32,70 MB
+0053,940 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2100 files added (on-disk size: 33511,6 KB)
+0053,985 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2200 files added (on-disk size: 33511,6 KB)
+0054,029 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2300 files added (on-disk size: 33511,6 KB)
+0054,072 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2400 files added (on-disk size: 33511,6 KB)
+0054,114 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2500 files added (on-disk size: 33511,6 KB)
+0054,171 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2600 files added (on-disk size: 33511,6 KB)
+0054,220 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2700 files added (on-disk size: 33511,6 KB)
+0054,273 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2800 files added (on-disk size: 33511,6 KB)
+0054,324 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 2900 files added (on-disk size: 33511,6 KB)
+0054,376 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3000 files added (on-disk size: 33511,6 KB)
+0054,380 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17,9 MB, 3602 files batched, 1001 (3003) added so far); re-opening (prior size: 33511,6 KB)
+0055,423 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: size is now: 49,50 MB
+0055,474 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3100 files added (on-disk size: 50686,4 KB)
+0055,519 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3200 files added (on-disk size: 50686,4 KB)
+0055,565 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3300 files added (on-disk size: 50686,4 KB)
+0055,615 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3400 files added (on-disk size: 50686,4 KB)
+0055,664 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3500 files added (on-disk size: 50686,4 KB)
+0055,716 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.tmp: 3600 files added (on-disk size: 50686,4 KB)
+0056,570 (0) Creating zip file manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip.list-temp.tmp)
+0056,578 (0) Successfully created zip file manifest (size: 231498)
+0057,015 (0) Created uploads zip (0) - 60066,9 KB in 7,1 s (8455 KB/s) (sha1: 7043a9ce2d089feecbc4fcc1d14e5788baeff881, sha256: 866298c48755ca9d044405d8d79bffad646da25d3c421408d367ea3faebf5eff)
+0057,023 (0) Beginning backup of other directories found in the content directory (index: 0)
+0057,025 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0057,027 (0) Looking for candidates to backup in: /home/server736453/ftp/KRSfrancuski/wp-content
+0057,030 (0) finding files: plugins: skipping: this is the plugins directory
+0057,032 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0057,034 (0) finding files: uploads: skipping: this is the uploads directory
+0057,036 (0) finding files: updraft: skipping: this is the updraft directory
+0057,039 (0) finding files: index.php: adding to list (1)
+0057,041 (0) finding files: languages: adding to list (2)
+0057,043 (0) finding files: upgrade: skipping: excluded by options
+0057,045 (0) finding files: litespeed: adding to list (3)
+0057,048 (0) finding files: themes: skipping: this is the themes directory
+0057,049 (0) finding files: .litespeed_conf.dat: adding to list (4)
+0057,052 (0) finding files: object-cache.php: adding to list (5)
+0057,142 (0) Total entities for the zip file: 8 directories, 282 files (0 skipped as non-modified), 11 MB
+0057,191 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0057,239 (0) Zip: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0057,736 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip.tmp: size is now: 2,50 MB
+0057,745 (0) Creating zip file manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip.list-temp.tmp)
+0057,749 (0) Successfully created zip file manifest (size: 14710)
+0057,777 (0) Created others zip (0) - 2522,7 KB in 0,7 s (3498,9 KB/s) (sha1: e0e1bc6d57221e925a4676b32e482e2f9de30973, sha256: 9fa0367a87d6a93722e7fbcfe0bed993d13218e029f176ffc76e433c87608b04)
+0057,790 (0) Saving backup status to database (elements: 8)
+0057,795 (0) Beginning creation of database dump (WordPress DB)
+0057,798 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0057,820 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0057,843 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `krsen_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1544 bytes total)
+0057,846 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0057,865 (0) Table krsen_options: Total expected rows (via COUNT): 952
+0057,925 (0) Table krsen_options: Rows added in this batch (next record: 485300): 948 (uncompressed bytes in this segment=2986310) in 0,06 seconds
+0057,940 (0) Table krsen_options: finishing file(s) (2, 442,1 KB)
+0057,947 (0) Table krsen_users: Total expected rows (via COUNT): 4
+0057,950 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057,955 (0) Table krsen_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1780) in 0,01 seconds
+0057,966 (0) Table krsen_users: finishing file(s) (2, 0,8 KB)
+0057,977 (0) Table krsen_usermeta: Total expected rows (via COUNT): 162
+0057,979 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057,988 (0) Table krsen_usermeta: Rows added in this batch (next record: 497): 162 (uncompressed bytes in this segment=336361) in 0,01 seconds
+0058,006 (0) Table krsen_usermeta: finishing file(s) (2, 32,7 KB)
+0058,015 (0) Table krsen_actionscheduler_actions: Total expected rows (via COUNT): 7
+0058,017 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,023 (0) Table krsen_actionscheduler_actions: Rows added in this batch (next record: 1111): 7 (uncompressed bytes in this segment=3158) in 0,01 seconds
+0058,036 (0) Table krsen_actionscheduler_actions: finishing file(s) (2, 0,8 KB)
+0058,043 (0) Table krsen_actionscheduler_claims: Total expected rows (via COUNT): 0
+0058,048 (0) Table krsen_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=641) in 0,01 seconds
+0058,060 (0) Table krsen_actionscheduler_claims: finishing file(s) (2, 0,4 KB)
+0058,066 (0) Table krsen_actionscheduler_groups: Total expected rows (via COUNT): 2
+0058,069 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,073 (0) Table krsen_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=724) in 0,01 seconds
+0058,084 (0) Table krsen_actionscheduler_groups: finishing file(s) (2, 0,4 KB)
+0058,091 (0) Table krsen_actionscheduler_logs: Total expected rows (via COUNT): 21
+0058,093 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,096 (0) Table krsen_actionscheduler_logs: Rows added in this batch (next record: 125): 21 (uncompressed bytes in this segment=2735) in 0,01 seconds
+0058,106 (0) Table krsen_actionscheduler_logs: finishing file(s) (2, 0,8 KB)
+0058,115 (0) Table krsen_commentmeta: Total expected rows (via COUNT): 0
+0058,120 (0) Table krsen_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0,01 seconds
+0058,133 (0) Table krsen_commentmeta: finishing file(s) (2, 0,4 KB)
+0058,140 (0) Table krsen_comments: Total expected rows (via COUNT): 0
+0058,145 (0) Table krsen_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1679) in 0,01 seconds
+0058,161 (0) Table krsen_comments: finishing file(s) (2, 0,5 KB)
+0058,169 (0) Table krsen_links: Total expected rows (via COUNT): 0
+0058,171 (0) Table krsen_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1284) in 0,00 seconds
+0058,183 (0) Table krsen_links: finishing file(s) (2, 0,5 KB)
+0058,196 (0) Table krsen_postmeta: Total expected rows (approximate): 6158
+0058,222 (0) Table krsen_postmeta: Rows added in this batch (next record: 9127): 4705 (uncompressed bytes in this segment=824128) in 0,03 seconds
+0058,236 (0) Table krsen_postmeta: finishing file(s) (2, 91,7 KB)
+0058,248 (0) Table krsen_posts: Total expected rows (via COUNT): 853
+0058,309 (0) Table krsen_posts: Rows added in this batch (next record: 1201): 853 (uncompressed bytes in this segment=5763522) in 0,07 seconds
+0058,324 (0) Table krsen_posts: finishing file(s) (2, 212,1 KB)
+0058,330 (0) Table krsen_term_relationships: Total expected rows (approximate): 7
+0058,335 (0) Table krsen_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=792) in 0,01 seconds
+0058,346 (0) Table krsen_term_relationships: finishing file(s) (2, 0,4 KB)
+0058,355 (0) Table krsen_term_taxonomy: Total expected rows (via COUNT): 4
+0058,357 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,362 (0) Table krsen_term_taxonomy: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1022) in 0,01 seconds
+0058,376 (0) Table krsen_term_taxonomy: finishing file(s) (2, 0,5 KB)
+0058,385 (0) Table krsen_termmeta: Total expected rows (via COUNT): 0
+0058,391 (0) Table krsen_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0,01 seconds
+0058,404 (0) Table krsen_termmeta: finishing file(s) (2, 0,4 KB)
+0058,413 (0) Table krsen_terms: Total expected rows (via COUNT): 4
+0058,416 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,421 (0) Table krsen_terms: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=846) in 0,01 seconds
+0058,431 (0) Table krsen_terms: finishing file(s) (2, 0,5 KB)
+0058,433 (0) Skipping table (lacks our prefix (krsen_)): cerber_acl
+0058,436 (0) Skipping table (lacks our prefix (krsen_)): cerber_blocks
+0058,438 (0) Skipping table (lacks our prefix (krsen_)): cerber_countries
+0058,440 (0) Skipping table (lacks our prefix (krsen_)): cerber_lab
+0058,443 (0) Skipping table (lacks our prefix (krsen_)): cerber_lab_ip
+0058,445 (0) Skipping table (lacks our prefix (krsen_)): cerber_lab_net
+0058,448 (0) Skipping table (lacks our prefix (krsen_)): cerber_log
+0058,450 (0) Skipping table (lacks our prefix (krsen_)): cerber_qmem
+0058,452 (0) Skipping table (lacks our prefix (krsen_)): cerber_traffic
+0058,459 (0) Table krsen_cerber_files: Total expected rows (approximate): 0
+0058,464 (0) Table krsen_cerber_files: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1367) in 0,01 seconds
+0058,474 (0) Table krsen_cerber_files: finishing file(s) (2, 0,4 KB)
+0058,481 (0) Table krsen_cerber_sets: Total expected rows (approximate): 18
+0058,486 (0) Table krsen_cerber_sets: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=69680) in 0,01 seconds
+0058,497 (0) Table krsen_cerber_sets: finishing file(s) (2, 27,4 KB)
+0058,503 (0) Table krsen_cerber_uss: Total expected rows (approximate): 3
+0058,506 (0) Table krsen_cerber_uss: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1190) in 0,00 seconds
+0058,518 (0) Table krsen_cerber_uss: finishing file(s) (2, 0,7 KB)
+0058,528 (0) Table krsen_cli_scripts: Total expected rows (via COUNT): 3
+0058,530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,535 (0) Table krsen_cli_scripts: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1216) in 0,01 seconds
+0058,548 (0) Table krsen_cli_scripts: finishing file(s) (2, 0,5 KB)
+0058,556 (0) Table krsen_icl_content_status: Total expected rows (via COUNT): 0
+0058,561 (0) Table krsen_icl_content_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0,01 seconds
+0058,572 (0) Table krsen_icl_content_status: finishing file(s) (2, 0,3 KB)
+0058,579 (0) Table krsen_icl_core_status: Total expected rows (via COUNT): 0
+0058,582 (0) Table krsen_icl_core_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0,00 seconds
+0058,592 (0) Table krsen_icl_core_status: finishing file(s) (2, 0,4 KB)
+0058,599 (0) Table krsen_icl_flags: Total expected rows (via COUNT): 64
+0058,602 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,607 (0) Table krsen_icl_flags: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=2353) in 0,01 seconds
+0058,617 (0) Table krsen_icl_flags: finishing file(s) (2, 0,9 KB)
+0058,625 (0) Table krsen_icl_languages: Total expected rows (via COUNT): 64
+0058,627 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,630 (0) Table krsen_icl_languages: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=4050) in 0,01 seconds
+0058,641 (0) Table krsen_icl_languages: finishing file(s) (2, 1,6 KB)
+0058,648 (0) Table krsen_icl_languages_translations: Total expected rows (approximate): 4096
+0058,664 (0) Table krsen_icl_languages_translations: Rows added in this batch (next record: 4096): 4096 (uncompressed bytes in this segment=143411) in 0,02 seconds
+0058,676 (0) Table krsen_icl_languages_translations: finishing file(s) (2, 33,8 KB)
+0058,682 (0) Table krsen_icl_locale_map: Total expected rows (approximate): 2
+0058,685 (0) Table krsen_icl_locale_map: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=606) in 0,00 seconds
+0058,697 (0) Table krsen_icl_locale_map: finishing file(s) (2, 0,4 KB)
+0058,704 (0) Table krsen_icl_message_status: Total expected rows (via COUNT): 0
+0058,707 (0) Table krsen_icl_message_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=968) in 0,00 seconds
+0058,718 (0) Table krsen_icl_message_status: finishing file(s) (2, 0,4 KB)
+0058,726 (0) Table krsen_icl_mo_files_domains: Total expected rows (via COUNT): 51
+0058,728 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058,734 (0) Table krsen_icl_mo_files_domains: Rows added in this batch (next record: 51): 51 (uncompressed bytes in this segment=10492) in 0,01 seconds
+0058,745 (0) Table krsen_icl_mo_files_domains: finishing file(s) (2, 3,4 KB)
+0058,752 (0) Table krsen_icl_node: Total expected rows (via COUNT): 0
+0058,757 (0) Table krsen_icl_node: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=498) in 0,01 seconds
+0058,768 (0) Table krsen_icl_node: finishing file(s) (2, 0,3 KB)
+0058,775 (0) Table krsen_icl_reminders: Total expected rows (via COUNT): 0
+0058,777 (0) Table krsen_icl_reminders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=592) in 0,00 seconds
+0058,788 (0) Table krsen_icl_reminders: finishing file(s) (2, 0,3 KB)
+0058,795 (0) Table krsen_icl_string_batches: Total expected rows (via COUNT): 0
+0058,798 (0) Table krsen_icl_string_batches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=563) in 0,00 seconds
+0058,808 (0) Table krsen_icl_string_batches: finishing file(s) (2, 0,3 KB)
+0058,815 (0) Table krsen_icl_string_packages: Total expected rows (via COUNT): 0
+0058,818 (0) Table krsen_icl_string_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=940) in 0,00 seconds
+0058,829 (0) Table krsen_icl_string_packages: finishing file(s) (2, 0,4 KB)
+0058,836 (0) Table krsen_icl_string_pages: Total expected rows (via COUNT): 0
+0058,838 (0) Table krsen_icl_string_pages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0,00 seconds
+0058,849 (0) Table krsen_icl_string_pages: finishing file(s) (2, 0,3 KB)
+0058,857 (0) Table krsen_icl_string_positions: Total expected rows (via COUNT): 0
+0058,859 (0) Table krsen_icl_string_positions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=661) in 0,00 seconds
+0058,870 (0) Table krsen_icl_string_positions: finishing file(s) (2, 0,4 KB)
+0058,877 (0) Table krsen_icl_string_status: Total expected rows (via COUNT): 0
+0058,879 (0) Table krsen_icl_string_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0,00 seconds
+0058,890 (0) Table krsen_icl_string_status: finishing file(s) (2, 0,4 KB)
+0058,895 (0) Table krsen_icl_string_translations: Total expected rows (approximate): 13710
+0058,949 (0) Table krsen_icl_string_translations: binary mysqldump finished (writes: 39, bytes 1612661, return code 0) in 0,05 seconds
+0058,957 (0) Table krsen_icl_string_translations: finishing file(s) (1, 358,6 KB)
+0058,964 (0) Table krsen_icl_string_urls: Total expected rows (via COUNT): 0
+0058,967 (0) Table krsen_icl_string_urls: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0,00 seconds
+0058,978 (0) Table krsen_icl_string_urls: finishing file(s) (2, 0,4 KB)
+0058,984 (0) Table krsen_icl_strings: Total expected rows (approximate): 21445
+0059,105 (0) Table krsen_icl_strings: binary mysqldump finished (writes: 50, bytes 3782040, return code 0) in 0,12 seconds
+0059,113 (0) Table krsen_icl_strings: finishing file(s) (1, 1320,8 KB)
+0059,122 (0) Table krsen_icl_translate: Total expected rows (via COUNT): 0
+0059,125 (0) Table krsen_icl_translate: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0,01 seconds
+0059,137 (0) Table krsen_icl_translate: finishing file(s) (2, 0,4 KB)
+0059,144 (0) Table krsen_icl_translate_job: Total expected rows (via COUNT): 0
+0059,147 (0) Table krsen_icl_translate_job: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=950) in 0,00 seconds
+0059,157 (0) Table krsen_icl_translate_job: finishing file(s) (2, 0,4 KB)
+0059,164 (0) Table krsen_icl_translation_batches: Total expected rows (via COUNT): 0
+0059,167 (0) Table krsen_icl_translation_batches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0,00 seconds
+0059,177 (0) Table krsen_icl_translation_batches: finishing file(s) (2, 0,4 KB)
+0059,187 (0) Table krsen_icl_translation_status: Total expected rows (via COUNT): 85
+0059,189 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,195 (0) Table krsen_icl_translation_status: Rows added in this batch (next record: 85): 85 (uncompressed bytes in this segment=8930) in 0,01 seconds
+0059,207 (0) Table krsen_icl_translation_status: finishing file(s) (2, 1,2 KB)
+0059,214 (0) Table krsen_icl_translations: Total expected rows (via COUNT): 297
+0059,216 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,222 (0) Table krsen_icl_translations: Rows added in this batch (next record: 368): 297 (uncompressed bytes in this segment=15262) in 0,01 seconds
+0059,232 (0) Table krsen_icl_translations: finishing file(s) (2, 3 KB)
+0059,239 (0) Table krsen_litespeed_img_optm: Total expected rows (approximate): 1533
+0059,251 (0) Table krsen_litespeed_img_optm: Rows added in this batch (next record: 1533): 1533 (uncompressed bytes in this segment=111592) in 0,01 seconds
+0059,262 (0) Table krsen_litespeed_img_optm: finishing file(s) (2, 24 KB)
+0059,269 (0) Table krsen_litespeed_img_optming: Total expected rows (via COUNT): 0
+0059,271 (0) Table krsen_litespeed_img_optming: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0,00 seconds
+0059,281 (0) Table krsen_litespeed_img_optming: finishing file(s) (2, 0,4 KB)
+0059,289 (0) Table krsen_litespeed_url: Total expected rows (via COUNT): 0
+0059,291 (0) Table krsen_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0,00 seconds
+0059,301 (0) Table krsen_litespeed_url: finishing file(s) (2, 0,4 KB)
+0059,308 (0) Table krsen_litespeed_url_file: Total expected rows (via COUNT): 0
+0059,310 (0) Table krsen_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=981) in 0,00 seconds
+0059,321 (0) Table krsen_litespeed_url_file: finishing file(s) (2, 0,5 KB)
+0059,331 (0) Table krsen_mail_bank_email_logs: Total expected rows (via COUNT): 254
+0059,333 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,352 (0) Table krsen_mail_bank_email_logs: Rows added in this batch (next record: 254): 254 (uncompressed bytes in this segment=1250435) in 0,02 seconds
+0059,366 (0) Table krsen_mail_bank_email_logs: finishing file(s) (2, 69,1 KB)
+0059,376 (0) Table krsen_nf3_action_meta: Total expected rows (approximate): 1003
+0059,385 (0) Table krsen_nf3_action_meta: Rows added in this batch (next record: 6002): 1003 (uncompressed bytes in this segment=105529) in 0,01 seconds
+0059,399 (0) Table krsen_nf3_action_meta: finishing file(s) (2, 11,2 KB)
+0059,409 (0) Table krsen_nf3_actions: Total expected rows (via COUNT): 41
+0059,411 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,416 (0) Table krsen_nf3_actions: Rows added in this batch (next record: 204): 41 (uncompressed bytes in this segment=3697) in 0,01 seconds
+0059,429 (0) Table krsen_nf3_actions: finishing file(s) (2, 0,8 KB)
+0059,439 (0) Table krsen_nf3_chunks: Total expected rows (via COUNT): 8
+0059,442 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,452 (0) Table krsen_nf3_chunks: Rows added in this batch (next record: 68): 8 (uncompressed bytes in this segment=464644) in 0,02 seconds
+0059,467 (0) Table krsen_nf3_chunks: finishing file(s) (2, 39,9 KB)
+0059,474 (0) Table krsen_nf3_field_meta: Total expected rows (approximate): 10691
+0059,506 (0) Table krsen_nf3_field_meta: binary mysqldump finished (writes: 30, bytes 777332, return code 0) in 0,03 seconds
+0059,515 (0) Table krsen_nf3_field_meta: finishing file(s) (1, 90,2 KB)
+0059,538 (0) Table krsen_nf3_fields: Total expected rows (via COUNT): 268
+0059,541 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,554 (0) Table krsen_nf3_fields: Rows added in this batch (next record: 597): 268 (uncompressed bytes in this segment=29813) in 0,02 seconds
+0059,568 (0) Table krsen_nf3_fields: finishing file(s) (2, 4,5 KB)
+0059,579 (0) Table krsen_nf3_form_meta: Total expected rows (via COUNT): 969
+0059,581 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,590 (0) Table krsen_nf3_form_meta: Rows added in this batch (next record: 4158): 969 (uncompressed bytes in this segment=213512) in 0,02 seconds
+0059,604 (0) Table krsen_nf3_form_meta: finishing file(s) (2, 20 KB)
+0059,614 (0) Table krsen_nf3_forms: Total expected rows (via COUNT): 9
+0059,617 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,623 (0) Table krsen_nf3_forms: Rows added in this batch (next record: 27): 9 (uncompressed bytes in this segment=2416) in 0,01 seconds
+0059,636 (0) Table krsen_nf3_forms: finishing file(s) (2, 0,7 KB)
+0059,646 (0) Table krsen_nf3_object_meta: Total expected rows (via COUNT): 0
+0059,651 (0) Table krsen_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0,01 seconds
+0059,666 (0) Table krsen_nf3_object_meta: finishing file(s) (2, 0,3 KB)
+0059,682 (0) Table krsen_nf3_objects: Total expected rows (via COUNT): 0
+0059,687 (0) Table krsen_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=595) in 0,01 seconds
+0059,699 (0) Table krsen_nf3_objects: finishing file(s) (2, 0,4 KB)
+0059,709 (0) Table krsen_nf3_relationships: Total expected rows (via COUNT): 0
+0059,712 (0) Table krsen_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=698) in 0,01 seconds
+0059,725 (0) Table krsen_nf3_relationships: finishing file(s) (2, 0,4 KB)
+0059,736 (0) Table krsen_nf3_upgrades: Total expected rows (via COUNT): 9
+0059,738 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,759 (0) Table krsen_nf3_upgrades: Rows added in this batch (next record: 27): 9 (uncompressed bytes in this segment=785646) in 0,03 seconds
+0059,774 (0) Table krsen_nf3_upgrades: finishing file(s) (2, 69,4 KB)
+0059,784 (0) Table krsen_revslider_css: Total expected rows (via COUNT): 109
+0059,787 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,793 (0) Table krsen_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91609) in 0,01 seconds
+0059,808 (0) Table krsen_revslider_css: finishing file(s) (2, 4,9 KB)
+0059,816 (0) Table krsen_revslider_layer_animations: Total expected rows (via COUNT): 0
+0059,821 (0) Table krsen_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0,01 seconds
+0059,832 (0) Table krsen_revslider_layer_animations: finishing file(s) (2, 0,3 KB)
+0059,842 (0) Table krsen_revslider_navigations: Total expected rows (via COUNT): 0
+0059,845 (0) Table krsen_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=616) in 0,01 seconds
+0059,863 (0) Table krsen_revslider_navigations: finishing file(s) (2, 0,3 KB)
+0059,875 (0) Table krsen_revslider_sliders: Total expected rows (via COUNT): 3
+0059,877 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,882 (0) Table krsen_revslider_sliders: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=33551) in 0,01 seconds
+0059,896 (0) Table krsen_revslider_sliders: finishing file(s) (2, 3,5 KB)
+0059,907 (0) Table krsen_revslider_slides: Total expected rows (via COUNT): 4
+0059,909 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,913 (0) Table krsen_revslider_slides: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=94164) in 0,01 seconds
+0059,925 (0) Table krsen_revslider_slides: finishing file(s) (2, 5,5 KB)
+0059,935 (0) Table krsen_revslider_static_slides: Total expected rows (via COUNT): 3
+0059,937 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,940 (0) Table krsen_revslider_static_slides: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=971) in 0,01 seconds
+0059,953 (0) Table krsen_revslider_static_slides: finishing file(s) (2, 0,4 KB)
+0059,960 (0) Table krsen_wpmailsmtp_debug_events: Total expected rows (via COUNT): 1
+0059,962 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,966 (0) Table krsen_wpmailsmtp_debug_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1043) in 0,01 seconds
+0059,977 (0) Table krsen_wpmailsmtp_debug_events: finishing file(s) (2, 0,6 KB)
+0059,988 (0) Table krsen_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 39
+0059,990 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059,996 (0) Table krsen_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 39): 39 (uncompressed bytes in this segment=3841) in 0,01 seconds
+0060,010 (0) Table krsen_wpmailsmtp_tasks_meta: finishing file(s) (2, 0,9 KB)
+0060,025 (0) Table krsen_yoast_indexable: Total expected rows (via COUNT): 148
+0060,028 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060,037 (0) Table krsen_yoast_indexable: Rows added in this batch (next record: 182): 148 (uncompressed bytes in this segment=59992) in 0,02 seconds
+0060,052 (0) Table krsen_yoast_indexable: finishing file(s) (2, 8,7 KB)
+0060,060 (0) Table krsen_yoast_indexable_hierarchy: Total expected rows (approximate): 1
+0060,066 (0) Table krsen_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=838) in 0,01 seconds
+0060,080 (0) Table krsen_yoast_indexable_hierarchy: finishing file(s) (2, 0,4 KB)
+0060,088 (0) Table krsen_yoast_migrations: Total expected rows (via COUNT): 18
+0060,090 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060,096 (0) Table krsen_yoast_migrations: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1098) in 0,01 seconds
+0060,107 (0) Table krsen_yoast_migrations: finishing file(s) (2, 0,6 KB)
+0060,114 (0) Table krsen_yoast_primary_term: Total expected rows (via COUNT): 0
+0060,120 (0) Table krsen_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0,01 seconds
+0060,130 (0) Table krsen_yoast_primary_term: finishing file(s) (2, 0,4 KB)
+0060,137 (0) Table krsen_yoast_seo_links: Total expected rows (approximate): 1210
+0060,145 (0) Table krsen_yoast_seo_links: Rows added in this batch (next record: 29289): 1210 (uncompressed bytes in this segment=95154) in 0,01 seconds
+0060,156 (0) Table krsen_yoast_seo_links: finishing file(s) (2, 5,2 KB)
+0060,163 (0) Table krsen_yoast_seo_meta: Total expected rows (via COUNT): 118
+0060,165 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060,171 (0) Table krsen_yoast_seo_meta: Rows added in this batch (next record: 990): 118 (uncompressed bytes in this segment=2280) in 0,01 seconds
+0060,181 (0) Table krsen_yoast_seo_meta: finishing file(s) (2, 0,7 KB)
+0060,186 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_options.table.tmpr485301.gz (1/82/fopen): adding to final database dump
+0060,191 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_options.table.gz (2/82/fopen): adding to final database dump
+0060,194 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_users.table.tmpr5.gz (3/82/fopen): adding to final database dump
+0060,197 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_users.table.gz (4/82/fopen): adding to final database dump
+0060,200 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_usermeta.table.tmpr498.gz (5/82/fopen): adding to final database dump
+0060,203 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_usermeta.table.gz (6/82/fopen): adding to final database dump
+0060,206 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_actions.table.tmpr1112.gz (7/82/fopen): adding to final database dump
+0060,209 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_actions.table.gz (8/82/fopen): adding to final database dump
+0060,212 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_claims.table.tmpr0.gz (9/82/fopen): adding to final database dump
+0060,218 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_claims.table.gz (10/82/fopen): adding to final database dump
+0060,220 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_groups.table.tmpr3.gz (11/82/fopen): adding to final database dump
+0060,225 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_groups.table.gz (12/82/fopen): adding to final database dump
+0060,227 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_logs.table.tmpr126.gz (13/82/fopen): adding to final database dump
+0060,230 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_actionscheduler_logs.table.gz (14/82/fopen): adding to final database dump
+0060,233 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_commentmeta.table.tmpr0.gz (15/82/fopen): adding to final database dump
+0060,235 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_commentmeta.table.gz (16/82/fopen): adding to final database dump
+0060,238 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_comments.table.tmpr0.gz (17/82/fopen): adding to final database dump
+0060,241 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_comments.table.gz (18/82/fopen): adding to final database dump
+0060,243 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_links.table.tmpr0.gz (19/82/fopen): adding to final database dump
+0060,246 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_links.table.gz (20/82/fopen): adding to final database dump
+0060,249 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_postmeta.table.tmpr9128.gz (21/82/fopen): adding to final database dump
+0060,254 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_postmeta.table.gz (22/82/fopen): adding to final database dump
+0060,256 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_posts.table.tmpr1202.gz (23/82/fopen): adding to final database dump
+0060,260 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_posts.table.gz (24/82/fopen): adding to final database dump
+0060,262 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_term_relationships.table.tmpr100001.gz (25/82/fopen): adding to final database dump
+0060,266 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_term_relationships.table.gz (26/82/fopen): adding to final database dump
+0060,268 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_term_taxonomy.table.tmpr6.gz (27/82/fopen): adding to final database dump
+0060,271 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_term_taxonomy.table.gz (28/82/fopen): adding to final database dump
+0060,273 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_termmeta.table.tmpr0.gz (29/82/fopen): adding to final database dump
+0060,276 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_termmeta.table.gz (30/82/fopen): adding to final database dump
+0060,278 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_terms.table.tmpr6.gz (31/82/fopen): adding to final database dump
+0060,281 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_terms.table.gz (32/82/fopen): adding to final database dump
+0060,284 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_files.table.tmpr1.gz (33/82/fopen): adding to final database dump
+0060,287 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_files.table.gz (34/82/fopen): adding to final database dump
+0060,290 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_sets.table.tmpr1001.gz (35/82/fopen): adding to final database dump
+0060,293 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_sets.table.gz (36/82/fopen): adding to final database dump
+0060,295 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_uss.table.tmpr1001.gz (37/82/fopen): adding to final database dump
+0060,298 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cerber_uss.table.gz (38/82/fopen): adding to final database dump
+0060,301 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cli_scripts.table.tmpr4.gz (39/82/fopen): adding to final database dump
+0060,304 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_cli_scripts.table.gz (40/82/fopen): adding to final database dump
+0060,307 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_content_status.table.tmpr0.gz (41/82/fopen): adding to final database dump
+0060,310 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_content_status.table.gz (42/82/fopen): adding to final database dump
+0060,312 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_core_status.table.tmpr0.gz (43/82/fopen): adding to final database dump
+0060,315 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_core_status.table.gz (44/82/fopen): adding to final database dump
+0060,317 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_flags.table.tmpr65.gz (45/82/fopen): adding to final database dump
+0060,320 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_flags.table.gz (46/82/fopen): adding to final database dump
+0060,323 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_languages.table.tmpr65.gz (47/82/fopen): adding to final database dump
+0060,326 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_languages.table.gz (48/82/fopen): adding to final database dump
+0060,328 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_languages_translations.table.tmpr4097.gz (49/82/fopen): adding to final database dump
+0060,331 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_languages_translations.table.gz (50/82/fopen): adding to final database dump
+0060,334 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_locale_map.table.tmpr1001.gz (51/82/fopen): adding to final database dump
+0060,336 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_locale_map.table.gz (52/82/fopen): adding to final database dump
+0060,339 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_message_status.table.tmpr0.gz (53/82/fopen): adding to final database dump
+0060,341 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_message_status.table.gz (54/82/fopen): adding to final database dump
+0060,344 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_mo_files_domains.table.tmpr52.gz (55/82/fopen): adding to final database dump
+0060,346 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_mo_files_domains.table.gz (56/82/fopen): adding to final database dump
+0060,349 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_node.table.tmpr0.gz (57/82/fopen): adding to final database dump
+0060,352 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_node.table.gz (58/82/fopen): adding to final database dump
+0060,354 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_reminders.table.tmpr0.gz (59/82/fopen): adding to final database dump
+0060,357 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_reminders.table.gz (60/82/fopen): adding to final database dump
+0060,359 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_batches.table.tmpr0.gz (61/82/fopen): adding to final database dump
+0060,362 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_batches.table.gz (62/82/fopen): adding to final database dump
+0060,364 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_packages.table.tmpr0.gz (63/82/fopen): adding to final database dump
+0060,367 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_packages.table.gz (64/82/fopen): adding to final database dump
+0060,369 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_pages.table.tmpr0.gz (65/82/fopen): adding to final database dump
+0060,372 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_pages.table.gz (66/82/fopen): adding to final database dump
+0060,375 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_positions.table.tmpr0.gz (67/82/fopen): adding to final database dump
+0060,377 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_positions.table.gz (68/82/fopen): adding to final database dump
+0060,380 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_status.table.tmpr0.gz (69/82/fopen): adding to final database dump
+0060,383 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_status.table.gz (70/82/fopen): adding to final database dump
+0060,385 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_translations.table.gz (71/82/fopen): adding to final database dump
+0060,389 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_urls.table.tmpr0.gz (72/82/fopen): adding to final database dump
+0060,392 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_string_urls.table.gz (73/82/fopen): adding to final database dump
+0060,395 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_strings.table.gz (74/82/fopen): adding to final database dump
+0060,403 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translate.table.tmpr0.gz (75/82/fopen): adding to final database dump
+0060,406 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translate.table.gz (76/82/fopen): adding to final database dump
+0060,409 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translate_job.table.tmpr0.gz (77/82/fopen): adding to final database dump
+0060,412 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translate_job.table.gz (78/82/fopen): adding to final database dump
+0060,414 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translation_batches.table.tmpr0.gz (79/82/fopen): adding to final database dump
+0060,417 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translation_batches.table.gz (80/82/fopen): adding to final database dump
+0060,419 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translation_status.table.tmpr86.gz (81/82/fopen): adding to final database dump
+0060,422 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translation_status.table.gz (82/82/fopen): adding to final database dump
+0060,425 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translations.table.tmpr369.gz (83/82/fopen): adding to final database dump
+0060,428 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_icl_translations.table.gz (84/82/fopen): adding to final database dump
+0060,431 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_img_optm.table.tmpr1534.gz (85/82/fopen): adding to final database dump
+0060,434 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_img_optm.table.gz (86/82/fopen): adding to final database dump
+0060,436 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_img_optming.table.tmpr0.gz (87/82/fopen): adding to final database dump
+0060,439 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_img_optming.table.gz (88/82/fopen): adding to final database dump
+0060,442 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_url.table.tmpr0.gz (89/82/fopen): adding to final database dump
+0060,445 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_url.table.gz (90/82/fopen): adding to final database dump
+0060,447 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_url_file.table.tmpr0.gz (91/82/fopen): adding to final database dump
+0060,450 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_litespeed_url_file.table.gz (92/82/fopen): adding to final database dump
+0060,453 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_mail_bank_email_logs.table.tmpr255.gz (93/82/fopen): adding to final database dump
+0060,456 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_mail_bank_email_logs.table.gz (94/82/fopen): adding to final database dump
+0060,458 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_action_meta.table.tmpr6003.gz (95/82/fopen): adding to final database dump
+0060,461 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_action_meta.table.gz (96/82/fopen): adding to final database dump
+0060,464 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_actions.table.tmpr205.gz (97/82/fopen): adding to final database dump
+0060,467 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_actions.table.gz (98/82/fopen): adding to final database dump
+0060,469 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_chunks.table.tmpr69.gz (99/82/fopen): adding to final database dump
+0060,474 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_chunks.table.gz (100/82/fopen): adding to final database dump
+0060,477 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_field_meta.table.gz (101/82/fopen): adding to final database dump
+0060,481 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_fields.table.tmpr598.gz (102/82/fopen): adding to final database dump
+0060,485 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_fields.table.gz (103/82/fopen): adding to final database dump
+0060,488 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_form_meta.table.tmpr4159.gz (104/82/fopen): adding to final database dump
+0060,491 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_form_meta.table.gz (105/82/fopen): adding to final database dump
+0060,493 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_forms.table.tmpr28.gz (106/82/fopen): adding to final database dump
+0060,496 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_forms.table.gz (107/82/fopen): adding to final database dump
+0060,499 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_object_meta.table.tmpr0.gz (108/82/fopen): adding to final database dump
+0060,502 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_object_meta.table.gz (109/82/fopen): adding to final database dump
+0060,504 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_objects.table.tmpr0.gz (110/82/fopen): adding to final database dump
+0060,507 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_objects.table.gz (111/82/fopen): adding to final database dump
+0060,509 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_relationships.table.tmpr0.gz (112/82/fopen): adding to final database dump
+0060,511 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_relationships.table.gz (113/82/fopen): adding to final database dump
+0060,514 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_upgrades.table.tmpr28.gz (114/82/fopen): adding to final database dump
+0060,517 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_nf3_upgrades.table.gz (115/82/fopen): adding to final database dump
+0060,520 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_css.table.tmpr110.gz (116/82/fopen): adding to final database dump
+0060,522 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_css.table.gz (117/82/fopen): adding to final database dump
+0060,525 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_layer_animations.table.tmpr0.gz (118/82/fopen): adding to final database dump
+0060,527 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_layer_animations.table.gz (119/82/fopen): adding to final database dump
+0060,530 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_navigations.table.tmpr0.gz (120/82/fopen): adding to final database dump
+0060,533 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_navigations.table.gz (121/82/fopen): adding to final database dump
+0060,535 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_sliders.table.tmpr4.gz (122/82/fopen): adding to final database dump
+0060,538 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_sliders.table.gz (123/82/fopen): adding to final database dump
+0060,540 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_slides.table.tmpr8.gz (124/82/fopen): adding to final database dump
+0060,543 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_slides.table.gz (125/82/fopen): adding to final database dump
+0060,546 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_static_slides.table.tmpr4.gz (126/82/fopen): adding to final database dump
+0060,548 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_revslider_static_slides.table.gz (127/82/fopen): adding to final database dump
+0060,551 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_wpmailsmtp_debug_events.table.tmpr2.gz (128/82/fopen): adding to final database dump
+0060,554 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_wpmailsmtp_debug_events.table.gz (129/82/fopen): adding to final database dump
+0060,556 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_wpmailsmtp_tasks_meta.table.tmpr40.gz (130/82/fopen): adding to final database dump
+0060,559 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_wpmailsmtp_tasks_meta.table.gz (131/82/fopen): adding to final database dump
+0060,561 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_indexable.table.tmpr183.gz (132/82/fopen): adding to final database dump
+0060,564 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_indexable.table.gz (133/82/fopen): adding to final database dump
+0060,566 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_indexable_hierarchy.table.tmpr1001.gz (134/82/fopen): adding to final database dump
+0060,569 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_indexable_hierarchy.table.gz (135/82/fopen): adding to final database dump
+0060,571 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_migrations.table.tmpr19.gz (136/82/fopen): adding to final database dump
+0060,574 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_migrations.table.gz (137/82/fopen): adding to final database dump
+0060,576 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_primary_term.table.tmpr0.gz (138/82/fopen): adding to final database dump
+0060,579 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_primary_term.table.gz (139/82/fopen): adding to final database dump
+0060,581 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_seo_links.table.tmpr29290.gz (140/82/fopen): adding to final database dump
+0060,584 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_seo_links.table.gz (141/82/fopen): adding to final database dump
+0060,586 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_seo_meta.table.tmpr991.gz (142/82/fopen): adding to final database dump
+0060,589 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db-table-krsen_yoast_seo_meta.table.gz (143/82/fopen): adding to final database dump
+0060,601 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: finished writing out complete database file (2906,7 KB)
+0060,715 (0) Total database tables backed up: 73 (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz, size: 2976531, sha1: abc854dde807de31bab1f8a97839dd23d57e099d, sha256: 298c347e1460ce67dc9170725e5c87e6f2fc2702770fab5e5cec184a79532d4f)
+0060,727 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0060,729 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0060,732 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0060,734 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has not yet been successfully uploaded: will queue
+0060,736 (0) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has not yet been successfully uploaded: will queue
+0060,739 (0) Saving backup history. Total backup size: 227,1 MB
+0060,744 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0060,753 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0060,755 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+0064,288 (0) Google Drive: quota usage: used=15326,2 MB, total=15360 MB, available=33,8 MB
+0064,291 (0) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0064,293 (0) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip) size is 133648604 b, whereas available quota is only 35456839 b
+0064,295 (0) An error condition has occurred for the first time during this job
+0064,658 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0065,066 (0) Google Drive: quota usage: used=15326,2 MB, total=15360 MB, available=33,8 MB
+0065,069 (0) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0065,072 (0) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip) size is 37435084 b, whereas available quota is only 35456839 b
+0065,414 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0065,702 (0) Google Drive: quota usage: used=15326,2 MB, total=15360 MB, available=33,8 MB
+0065,705 (0) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0065,707 (0) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 35456839 b
+0066,054 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0066,375 (0) Google Drive: quota usage: used=15326,2 MB, total=15360 MB, available=33,8 MB
+0066,378 (0) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0067,098 (0) Googledrive chunked upload: 40,6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 79,2 / 88)
+0068,462 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0068,468 (0) Google Drive: OK: Archive backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip uploaded in 2,09 seconds
+0068,471 (0) Recording as successfully uploaded: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip
+0068,477 (0) Deleting local file: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: OK
+0068,479 (0) Deleting zip manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip.list.tmp)
+0068,815 (0) Google Drive: quota usage: used=15328,6 MB, total=15360 MB, available=31,4 MB
+0068,818 (0) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0069,541 (0) Googledrive chunked upload: 35,2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 79,2 / 88)
+0070,831 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0070,839 (0) Google Drive: OK: Archive backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz uploaded in 2,02 seconds
+0070,841 (0) Recording as successfully uploaded: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz
+0070,847 (0) Deleting local file: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: OK
+0070,852 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0070,855 (0) Number of backup sets in history: 5; groups (db): 1
+0070,857 (0) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+0070,859 (0) This backup set is the backup set just made, so will not be deleted.
+0070,859 (0) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+0070,859 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0070,862 (0) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+0070,862 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0070,862 (0) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+0070,862 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0070,862 (0) Examining (for databases) backup set with group_id=0, nonce=3a60583ef76c, datestamp=1663279770 (Sep 15 2022 22:09:30)
+0070,862 (0) 1663279770: db: this set includes a database (backup_2022-09-16-0009_KRS_francuski_3a60583ef76c-db.gz); db count is now 4
+0070,862 (0) 1663279770: db: over retain limit (4); will delete this database
+0070,862 (0) Delete file: backup_2022-09-16-0009_KRS_francuski_3a60583ef76c-db.gz, service=googledrive
+0074,190 (0) Google Drive: backup_2022-09-16-0009_KRS_francuski_3a60583ef76c-db.gz: Deletion failed: file was not found
+0074,197 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0074,200 (0) Number of backup sets in history: 5; groups (files): 1
+0074,202 (0) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+0074,202 (0) This backup set is the backup set just made, so will not be deleted.
+0074,205 (0) This backup set is the backup set just made, so will not be deleted.
+0074,205 (0) This backup set is the backup set just made, so will not be deleted.
+0074,205 (0) This backup set is the backup set just made, so will not be deleted.
+0074,205 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074,208 (0) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+0074,208 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074,208 (0) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+0074,208 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074,208 (0) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+0074,208 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074,208 (0) Examining (for files) backup set with nonce=3a60583ef76c, datestamp=1663279770 (Sep 15 2022 22:09:30)
+0074,208 (0) plugins: over retain limit (4); will delete this file entity
+0074,208 (0) themes: over retain limit (4); will delete this file entity
+0074,208 (0) uploads: over retain limit (4); will delete this file entity
+0074,208 (0) others: over retain limit (4); will delete this file entity
+0074,208 (0) Delete file: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-plugins.zip, service=googledrive
+0074,210 (0) Delete file: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-themes.zip, service=googledrive
+0074,213 (0) Delete file: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-uploads.zip, service=googledrive
+0074,215 (0) Deleting local copy (backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-uploads.zip)
+0074,219 (0) Delete file: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-others.zip, service=googledrive
+0077,324 (0) Google Drive: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-themes.zip: Deletion successful
+0077,992 (0) Google Drive: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-plugins.zip: Deletion successful
+0078,605 (0) Google Drive: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-others.zip: Deletion successful
+0078,608 (0) Google Drive: backup_2022-09-16-0009_KRS_francuski_e5fcfe6e9d2a-uploads.zip: Deletion failed: file was not found
+0078,614 (0) This backup set is now empty; will remove from history
+0078,617 (0) Deleting log file (log.3a60583ef76c.txt)
+0078,620 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0078,627 (0) Resume backup (f99117d0fb18, 0): finish run
+0078,632 (0) Decremented the semaphore (fd) by 1
+0078,634 (0) Semaphore (fd) unlocked
+0078,637 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0078,644 (0) Rescheduling resumption 1: moving to 60 seconds from now (1665699293)
+0078,649 (0) No email will/can be sent - the user has not configured an email address.
+0078,651 (0) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+0827,139 (1) Opened log file at time: Thu, 13 Oct 2022 22:26:21 +0000 on https://krsfrancuski.pl
+0827,141 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 52M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+0827,143 (1) Free space on disk containing Updraft's temporary directory: 34221573 MB
+0827,147 (1) Requesting backup semaphore lock (f99117d0fb18)
+0827,149 (1) [Debug] Lock option (updraft_lock_f99117d0fb18, krsen_options) was created in the database
+0827,150 (1) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired after initialising the database
+0827,154 (1) Backup run: resumption=1, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (827s ago), job type=backup, previous check-in=78,61s
+0827,157 (1) Scheduling a resumption (2) after 300 seconds (1665700281) in case this run gets aborted
+0827,167 (1) Checking if we have a zip executable available
+0827,169 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0827,172 (1) Creation of backups of directories: already finished
+0827,175 (1) Saving backup status to database (elements: 8)
+0827,184 (1) Database dump (WordPress DB): Creation was completed already
+0827,187 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0827,192 (1) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0827,194 (1) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0827,196 (1) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0827,198 (1) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+0827,200 (1) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+0827,202 (1) Saving backup history. Total backup size: Unknown
+0827,206 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0827,210 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0827,212 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+0828,188 (1) Google Drive: quota usage: used=15171,5 MB, total=15360 MB, available=188,5 MB
+0828,191 (1) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0829,068 (1) Googledrive chunked upload: 0,8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 77,3 / 54)
+0829,410 (1) Googledrive chunked upload: 2,4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 78,2 / 54)
+0829,840 (1) Googledrive chunked upload: 5,5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 78,2 / 54)
+0830,457 (1) Googledrive chunked upload: 11,8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 78,2 / 54)
+0831,483 (1) Googledrive chunked upload: 24,3 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 78,2 / 54)
+0833,268 (1) Googledrive chunked upload: 49,4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 78,2 / 54)
+0836,497 (1) Googledrive chunked upload: 99,6 % uploaded (133169152)
+0837,818 (1) Googledrive chunked upload: 100 % uploaded (133169152)
+0837,824 (1) Google Drive: OK: Archive backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip uploaded in 9,63 seconds
+0837,826 (1) Recording as successfully uploaded: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip
+0837,848 (1) Deleting local file: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: OK
+0837,850 (1) Deleting zip manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip.list.tmp)
+0838,344 (1) Google Drive: quota usage: used=15299 MB, total=15360 MB, available=61 MB
+0838,347 (1) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0839,043 (1) Googledrive chunked upload: 2,8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 77,4 / 56)
+0839,388 (1) Googledrive chunked upload: 8,4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 78,2 / 56)
+0839,834 (1) Googledrive chunked upload: 19,6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 78,2 / 56)
+0840,404 (1) Googledrive chunked upload: 42 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 78,2 / 56)
+0841,443 (1) Googledrive chunked upload: 86,8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 78,2 / 56)
+0842,833 (1) Googledrive chunked upload: 100 % uploaded (32505856)
+0842,839 (1) Google Drive: OK: Archive backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip uploaded in 4,49 seconds
+0842,841 (1) Recording as successfully uploaded: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip
+0842,850 (1) Deleting local file: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: OK
+0842,852 (1) Deleting zip manifest (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip.list.tmp)
+0843,163 (1) Google Drive: quota usage: used=15334,7 MB, total=15360 MB, available=25,3 MB
+0843,165 (1) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+0843,167 (1) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 26559232 b
+0843,169 (1) An error condition has occurred for the first time during this job
+0843,521 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0843,527 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0843,529 (1) Number of backup sets in history: 4; groups (db): 1
+0843,531 (1) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+0843,533 (1) This backup set is the backup set just made, so will not be deleted.
+0843,533 (1) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+0843,533 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,535 (1) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+0843,535 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,535 (1) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+0843,535 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,535 (1) Number of backup sets in history: 4; groups (files): 1
+0843,537 (1) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+0843,537 (1) This backup set is the backup set just made, so will not be deleted.
+0843,539 (1) This backup set is the backup set just made, so will not be deleted.
+0843,539 (1) This backup set is the backup set just made, so will not be deleted.
+0843,539 (1) This backup set is the backup set just made, so will not be deleted.
+0843,539 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,541 (1) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+0843,541 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,542 (1) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+0843,542 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,542 (1) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+0843,542 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0843,542 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0843,547 (1) Resume backup (f99117d0fb18, 1): finish run
+0843,550 (1) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+0843,552 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0843,556 (1) No email will/can be sent - the user has not configured an email address.
+0843,558 (1) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+2429,996 (2) Opened log file at time: Thu, 13 Oct 2022 22:53:04 +0000 on https://krsfrancuski.pl
+2429,999 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 52M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+2430,001 (2) Free space on disk containing Updraft's temporary directory: 34212706 MB
+2430,003 (2) Requesting backup semaphore lock (f99117d0fb18)
+2430,005 (2) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+2430,009 (2) Backup run: resumption=2, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (2430s ago), job type=backup, previous check-in=15,69s
+2430,011 (2) Long time past since expected resumption time: approx expected=1665700297,3, now=1665701584,5, diff=1287,2
+2430,015 (2) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2430,019 (2) Scheduling a resumption (3) after 300 seconds (1665701884) in case this run gets aborted
+2430,028 (2) Checking if we have a zip executable available
+2430,030 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+2430,032 (2) Creation of backups of directories: already finished
+2430,034 (2) Saving backup status to database (elements: 8)
+2430,041 (2) Database dump (WordPress DB): Creation was completed already
+2430,043 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2430,049 (2) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+2430,051 (2) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+2430,053 (2) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2430,055 (2) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+2430,057 (2) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+2430,059 (2) Saving backup history. Total backup size: Unknown
+2430,063 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+2430,067 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2430,069 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+2431,046 (2) Google Drive: quota usage: used=15337,6 MB, total=15360 MB, available=22,4 MB
+2431,049 (2) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+2431,051 (2) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 23525542 b
+2431,053 (2) An error condition has occurred for the first time during this job
+2431,403 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2431,408 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2431,411 (2) Number of backup sets in history: 4; groups (db): 1
+2431,413 (2) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+2431,415 (2) This backup set is the backup set just made, so will not be deleted.
+2431,415 (2) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+2431,415 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,416 (2) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+2431,417 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,417 (2) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+2431,417 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,417 (2) Number of backup sets in history: 4; groups (files): 1
+2431,419 (2) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+2431,419 (2) This backup set is the backup set just made, so will not be deleted.
+2431,421 (2) This backup set is the backup set just made, so will not be deleted.
+2431,421 (2) This backup set is the backup set just made, so will not be deleted.
+2431,421 (2) This backup set is the backup set just made, so will not be deleted.
+2431,421 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,423 (2) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+2431,423 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,423 (2) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+2431,423 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,423 (2) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+2431,423 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2431,423 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2431,428 (2) Resume backup (f99117d0fb18, 2): finish run
+2431,432 (2) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+2431,434 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2431,438 (2) No email will/can be sent - the user has not configured an email address.
+2431,440 (2) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+3255,335 (3) Opened log file at time: Thu, 13 Oct 2022 23:06:49 +0000 on https://krsfrancuski.pl
+3255,338 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 28M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+3255,340 (3) Free space on disk containing Updraft's temporary directory: 34209731 MB
+3255,344 (3) Requesting backup semaphore lock (f99117d0fb18)
+3255,346 (3) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+3255,350 (3) Backup run: resumption=3, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (3255s ago), job type=backup
+3255,355 (3) Scheduling a resumption (4) after 300 seconds (1665702709) in case this run gets aborted
+3255,364 (3) Checking if we have a zip executable available
+3255,367 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+3255,369 (3) Creation of backups of directories: already finished
+3255,373 (3) Saving backup status to database (elements: 8)
+3255,383 (3) Database dump (WordPress DB): Creation was completed already
+3255,385 (3) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3255,391 (3) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+3255,393 (3) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+3255,395 (3) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3255,397 (3) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+3255,399 (3) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+3255,402 (3) Saving backup history. Total backup size: Unknown
+3255,406 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+3255,411 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3255,413 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+3256,839 (3) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+3256,842 (3) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+3256,844 (3) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+3256,846 (3) An error condition has occurred for the first time during this job
+3257,194 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3257,199 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3257,202 (3) Number of backup sets in history: 4; groups (db): 1
+3257,203 (3) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3257,205 (3) This backup set is the backup set just made, so will not be deleted.
+3257,206 (3) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3257,206 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,207 (3) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+3257,207 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,208 (3) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+3257,208 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,208 (3) Number of backup sets in history: 4; groups (files): 1
+3257,210 (3) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3257,210 (3) This backup set is the backup set just made, so will not be deleted.
+3257,211 (3) This backup set is the backup set just made, so will not be deleted.
+3257,212 (3) This backup set is the backup set just made, so will not be deleted.
+3257,212 (3) This backup set is the backup set just made, so will not be deleted.
+3257,212 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,214 (3) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3257,214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,214 (3) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+3257,214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,214 (3) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+3257,214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3257,214 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3257,218 (3) Resume backup (f99117d0fb18, 3): finish run
+3257,222 (3) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+3257,224 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3257,228 (3) No email will/can be sent - the user has not configured an email address.
+3257,230 (3) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+3577,853 (4) Opened log file at time: Thu, 13 Oct 2022 23:12:12 +0000 on https://krsfrancuski.pl
+3577,856 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 56M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+3577,858 (4) Free space on disk containing Updraft's temporary directory: 34219968 MB
+3577,861 (4) Requesting backup semaphore lock (f99117d0fb18)
+3577,863 (4) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+3577,868 (4) Backup run: resumption=4, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (3578s ago), job type=backup
+3577,872 (4) Scheduling a resumption (5) after 300 seconds (1665703032) in case this run gets aborted
+3577,882 (4) Checking if we have a zip executable available
+3577,885 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+3577,888 (4) Creation of backups of directories: already finished
+3577,890 (4) Saving backup status to database (elements: 8)
+3577,899 (4) Database dump (WordPress DB): Creation was completed already
+3577,902 (4) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3577,907 (4) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+3577,909 (4) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+3577,911 (4) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3577,913 (4) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+3577,915 (4) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+3577,917 (4) Saving backup history. Total backup size: Unknown
+3577,922 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+3577,926 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3577,927 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+3578,926 (4) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+3578,929 (4) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+3578,931 (4) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+3578,932 (4) An error condition has occurred for the first time during this job
+3579,318 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3579,323 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3579,326 (4) Number of backup sets in history: 4; groups (db): 1
+3579,327 (4) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3579,330 (4) This backup set is the backup set just made, so will not be deleted.
+3579,330 (4) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3579,330 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,331 (4) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+3579,331 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,332 (4) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+3579,332 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,332 (4) Number of backup sets in history: 4; groups (files): 1
+3579,333 (4) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+3579,333 (4) This backup set is the backup set just made, so will not be deleted.
+3579,335 (4) This backup set is the backup set just made, so will not be deleted.
+3579,335 (4) This backup set is the backup set just made, so will not be deleted.
+3579,335 (4) This backup set is the backup set just made, so will not be deleted.
+3579,335 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,337 (4) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+3579,337 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,337 (4) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+3579,337 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,337 (4) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+3579,337 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3579,337 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3579,341 (4) Resume backup (f99117d0fb18, 4): finish run
+3579,345 (4) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+3579,347 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3579,351 (4) No email will/can be sent - the user has not configured an email address.
+3579,353 (4) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+4935,268 (5) Opened log file at time: Thu, 13 Oct 2022 23:34:49 +0000 on https://krsfrancuski.pl
+4935,271 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 62M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+4935,273 (5) Free space on disk containing Updraft's temporary directory: 34215826 MB
+4935,276 (5) Requesting backup semaphore lock (f99117d0fb18)
+4935,278 (5) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+4935,281 (5) Backup run: resumption=5, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (4935s ago), job type=backup
+4935,283 (5) Long time past since expected resumption time: approx expected=1665703032,3, now=1665704089,7, diff=1057,4
+4935,285 (5) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4935,289 (5) Scheduling a resumption (6) after 300 seconds (1665704389) in case this run gets aborted
+4935,300 (5) Checking if we have a zip executable available
+4935,302 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+4935,304 (5) Creation of backups of directories: already finished
+4935,308 (5) Saving backup status to database (elements: 8)
+4935,317 (5) Database dump (WordPress DB): Creation was completed already
+4935,319 (5) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4935,324 (5) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+4935,329 (5) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+4935,331 (5) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4935,333 (5) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+4935,335 (5) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+4935,337 (5) Saving backup history. Total backup size: Unknown
+4935,341 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+4935,345 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4935,350 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+4937,725 (5) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+4937,728 (5) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+4937,730 (5) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+4937,732 (5) An error condition has occurred for the first time during this job
+4938,088 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+4938,095 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+4938,098 (5) Number of backup sets in history: 4; groups (db): 1
+4938,100 (5) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+4938,103 (5) This backup set is the backup set just made, so will not be deleted.
+4938,103 (5) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+4938,103 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,105 (5) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+4938,105 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,105 (5) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+4938,105 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,105 (5) Number of backup sets in history: 4; groups (files): 1
+4938,107 (5) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+4938,107 (5) This backup set is the backup set just made, so will not be deleted.
+4938,113 (5) This backup set is the backup set just made, so will not be deleted.
+4938,113 (5) This backup set is the backup set just made, so will not be deleted.
+4938,113 (5) This backup set is the backup set just made, so will not be deleted.
+4938,113 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,115 (5) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+4938,115 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,115 (5) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+4938,115 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,115 (5) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+4938,115 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4938,116 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4938,126 (5) Resume backup (f99117d0fb18, 5): finish run
+4938,131 (5) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+4938,134 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4938,138 (5) No email will/can be sent - the user has not configured an email address.
+4938,140 (5) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+5752,628 (6) Opened log file at time: Thu, 13 Oct 2022 23:48:27 +0000 on https://krsfrancuski.pl
+5752,630 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 62M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+5752,632 (6) Free space on disk containing Updraft's temporary directory: 34212020 MB
+5752,634 (6) Requesting backup semaphore lock (f99117d0fb18)
+5752,636 (6) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+5752,640 (6) Backup run: resumption=6, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (5753s ago), job type=backup
+5752,643 (6) Scheduling a resumption (7) after 300 seconds (1665705207) in case this run gets aborted
+5752,651 (6) Checking if we have a zip executable available
+5752,654 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+5752,674 (6) Creation of backups of directories: already finished
+5752,676 (6) Saving backup status to database (elements: 8)
+5752,683 (6) Database dump (WordPress DB): Creation was completed already
+5752,686 (6) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5752,690 (6) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+5752,692 (6) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+5752,694 (6) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5752,696 (6) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+5752,698 (6) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+5752,699 (6) Saving backup history. Total backup size: Unknown
+5752,703 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+5752,707 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5752,708 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+5753,829 (6) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+5753,832 (6) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+5753,834 (6) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+5753,836 (6) An error condition has occurred for the first time during this job
+5754,190 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+5754,196 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+5754,198 (6) Number of backup sets in history: 4; groups (db): 1
+5754,200 (6) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5754,202 (6) This backup set is the backup set just made, so will not be deleted.
+5754,202 (6) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5754,202 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,203 (6) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+5754,203 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,203 (6) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+5754,203 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,203 (6) Number of backup sets in history: 4; groups (files): 1
+5754,205 (6) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+5754,205 (6) This backup set is the backup set just made, so will not be deleted.
+5754,207 (6) This backup set is the backup set just made, so will not be deleted.
+5754,207 (6) This backup set is the backup set just made, so will not be deleted.
+5754,207 (6) This backup set is the backup set just made, so will not be deleted.
+5754,207 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,208 (6) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+5754,209 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,209 (6) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+5754,209 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,209 (6) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+5754,209 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5754,209 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5754,212 (6) Resume backup (f99117d0fb18, 6): finish run
+5754,219 (6) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+5754,221 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5754,225 (6) No email will/can be sent - the user has not configured an email address.
+5754,227 (6) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+6825,922 (7) Opened log file at time: Fri, 14 Oct 2022 00:06:20 +0000 on https://krsfrancuski.pl
+6825,925 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 34M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+6825,927 (7) Free space on disk containing Updraft's temporary directory: 34206885 MB
+6825,930 (7) Requesting backup semaphore lock (f99117d0fb18)
+6825,932 (7) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+6825,936 (7) Backup run: resumption=7, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (6826s ago), job type=backup
+6825,938 (7) Long time past since expected resumption time: approx expected=1665705207,1, now=1665705980,4, diff=773,3
+6825,940 (7) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+6825,944 (7) Scheduling a resumption (8) after 300 seconds (1665706280) in case this run gets aborted
+6825,953 (7) Checking if we have a zip executable available
+6825,956 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+6825,958 (7) Creation of backups of directories: already finished
+6825,960 (7) Saving backup status to database (elements: 8)
+6825,967 (7) Database dump (WordPress DB): Creation was completed already
+6825,970 (7) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+6825,976 (7) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+6825,978 (7) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+6825,980 (7) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6825,982 (7) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+6825,984 (7) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+6825,986 (7) Saving backup history. Total backup size: Unknown
+6825,991 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+6825,996 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6825,998 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+6827,079 (7) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+6827,082 (7) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+6827,084 (7) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+6827,087 (7) An error condition has occurred for the first time during this job
+6827,427 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+6827,433 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+6827,436 (7) Number of backup sets in history: 4; groups (db): 1
+6827,439 (7) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+6827,441 (7) This backup set is the backup set just made, so will not be deleted.
+6827,441 (7) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+6827,441 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,444 (7) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+6827,444 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,444 (7) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+6827,444 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,444 (7) Number of backup sets in history: 4; groups (files): 1
+6827,446 (7) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+6827,446 (7) This backup set is the backup set just made, so will not be deleted.
+6827,448 (7) This backup set is the backup set just made, so will not be deleted.
+6827,448 (7) This backup set is the backup set just made, so will not be deleted.
+6827,449 (7) This backup set is the backup set just made, so will not be deleted.
+6827,449 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,451 (7) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+6827,451 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,451 (7) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+6827,451 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,451 (7) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+6827,451 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+6827,451 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+6827,456 (7) Resume backup (f99117d0fb18, 7): finish run
+6827,461 (7) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+6827,463 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6827,468 (7) No email will/can be sent - the user has not configured an email address.
+6827,470 (7) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+8181,446 (8) Opened log file at time: Fri, 14 Oct 2022 00:28:55 +0000 on https://krsfrancuski.pl
+8181,449 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 28M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+8181,451 (8) Free space on disk containing Updraft's temporary directory: 34230775 MB
+8181,454 (8) Requesting backup semaphore lock (f99117d0fb18)
+8181,456 (8) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+8181,461 (8) Backup run: resumption=8, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (8181s ago), job type=backup
+8181,463 (8) Long time past since expected resumption time: approx expected=1665706280,4, now=1665707335,9, diff=1055,5
+8181,465 (8) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8181,469 (8) Scheduling a resumption (9) after 300 seconds (1665707635) in case this run gets aborted
+8181,478 (8) Checking if we have a zip executable available
+8181,480 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+8181,483 (8) Creation of backups of directories: already finished
+8181,485 (8) Saving backup status to database (elements: 8)
+8181,492 (8) Database dump (WordPress DB): Creation was completed already
+8181,495 (8) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+8181,500 (8) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+8181,502 (8) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+8181,504 (8) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8181,507 (8) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+8181,509 (8) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+8181,511 (8) Saving backup history. Total backup size: Unknown
+8181,516 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+8181,520 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+8181,522 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+8182,654 (8) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+8182,657 (8) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+8182,659 (8) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+8182,661 (8) An error condition has occurred for the first time during this job
+8183,002 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+8183,008 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+8183,011 (8) Number of backup sets in history: 4; groups (db): 1
+8183,013 (8) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+8183,015 (8) This backup set is the backup set just made, so will not be deleted.
+8183,015 (8) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+8183,015 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,017 (8) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+8183,017 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,017 (8) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+8183,017 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,017 (8) Number of backup sets in history: 4; groups (files): 1
+8183,019 (8) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+8183,019 (8) This backup set is the backup set just made, so will not be deleted.
+8183,021 (8) This backup set is the backup set just made, so will not be deleted.
+8183,021 (8) This backup set is the backup set just made, so will not be deleted.
+8183,021 (8) This backup set is the backup set just made, so will not be deleted.
+8183,021 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,023 (8) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+8183,023 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,024 (8) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+8183,024 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,024 (8) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+8183,024 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8183,024 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+8183,029 (8) Resume backup (f99117d0fb18, 8): finish run
+8183,033 (8) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+8183,035 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8183,039 (8) No email will/can be sent - the user has not configured an email address.
+8183,041 (8) Wykonywanie kopii zapasowej nie zakończyło się; zaplanowano wznowienie
+9784,263 (9) Opened log file at time: Fri, 14 Oct 2022 00:55:38 +0000 on https://krsfrancuski.pl
+9784,266 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.5.10 PHP: 7.4.30 (fpm-fcgi, Linux server736453.nazwa.pl 5.4.0-120-generic #136~18.04.1-Ubuntu SMP Fri Jun 10 18:00:44 UTC 2022 x86_64) MySQL: 10.5.17-MariaDB-log (max packet size=16777216) WPLANG: pl_PL Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 73,2M | 60M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: pl ZipArchive::addFile: Y
+9784,268 (9) Free space on disk containing Updraft's temporary directory: 34233869 MB
+9784,270 (9) Requesting backup semaphore lock (f99117d0fb18)
+9784,272 (9) [Info] Lock (updraft_lock_f99117d0fb18, krsen_options) acquired
+9784,275 (9) Backup run: resumption=9, nonce=f99117d0fb18, file_nonce=f99117d0fb18 begun at=1665699154 (9784s ago), job type=backup
+9784,277 (9) Long time past since expected resumption time: approx expected=1665707635,9, now=1665708938,7, diff=1302,8
+9784,279 (9) [Warning] Twoja strona jest odwiedzana zbyt rzadko, w związku z czym UpdraftPlus nie otrzymuje zaplanowanej ilości zasobów; proszę, przeczytaj tę stronę: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+9784,282 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 1) - will not schedule a further attempt until we see something useful happening this time
+9784,286 (9) Scheduling a resumption (10) after 300 seconds (1665709238); but the job will then be aborted unless something happens this time
+9784,294 (9) Creation of backups of directories: already finished
+9784,297 (9) Saving backup status to database (elements: 8)
+9784,304 (9) Database dump (WordPress DB): Creation was completed already
+9784,306 (9) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+9784,310 (9) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-plugins.zip: plugins: This file has already been successfully uploaded
+9784,312 (9) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-themes.zip: themes: This file has already been successfully uploaded
+9784,314 (9) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9784,316 (9) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-others.zip: others: This file has already been successfully uploaded
+9784,318 (9) backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-db.gz: db: This file has already been successfully uploaded
+9784,320 (9) Saving backup history. Total backup size: Unknown
+9784,324 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+9784,327 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+9784,329 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4d72fe2637218760419a9fbde52e3e02)
+9787,622 (9) Google Drive: quota usage: used=15329 MB, total=15360 MB, available=31 MB
+9787,625 (9) Google Drive: backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip: Attempting to upload to Google Drive (into folder id: 1y0q8hqEACvsLBNqiXqcqNfH32iBCCXUi)
+9787,627 (9) Google Drive: File upload expected to fail: file (backup_2022-10-14-0012_KRS_francuski_f99117d0fb18-uploads.zip) size is 61508498 b, whereas available quota is only 32455920 b
+9787,629 (9) An error condition has occurred for the first time during this job
+9788,017 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /home/server736453/ftp/KRSfrancuski/wp-content/plugins/updraftplus/includes/google-extensions.php)
+9788,022 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+9788,024 (9) Number of backup sets in history: 4; groups (db): 1
+9788,026 (9) Examining (for databases) backup set with group_id=0, nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+9788,028 (9) This backup set is the backup set just made, so will not be deleted.
+9788,028 (9) Examining (for databases) backup set with group_id=0, nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+9788,028 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,030 (9) Examining (for databases) backup set with group_id=0, nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+9788,030 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,030 (9) Examining (for databases) backup set with group_id=0, nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+9788,030 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,030 (9) Number of backup sets in history: 4; groups (files): 1
+9788,032 (9) Examining (for files) backup set with nonce=f99117d0fb18, datestamp=1665699154 (Oct 13 2022 22:12:34)
+9788,032 (9) This backup set is the backup set just made, so will not be deleted.
+9788,034 (9) This backup set is the backup set just made, so will not be deleted.
+9788,034 (9) This backup set is the backup set just made, so will not be deleted.
+9788,034 (9) This backup set is the backup set just made, so will not be deleted.
+9788,034 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,036 (9) Examining (for files) backup set with nonce=a605e1604d90, datestamp=1665093962 (Oct 06 2022 22:06:02)
+9788,036 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,036 (9) Examining (for files) backup set with nonce=76955dabc5dc, datestamp=1664489141 (Sep 29 2022 22:05:41)
+9788,036 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,036 (9) Examining (for files) backup set with nonce=5d937d6500d0, datestamp=1663884827 (Sep 22 2022 22:13:47)
+9788,036 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9788,036 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+9788,040 (9) Resume backup (f99117d0fb18, 9): finish run
+9788,044 (9) [Info] Lock option (updraft_lock_f99117d0fb18, krsen_options) released
+9788,046 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+9788,049 (9) No email will/can be sent - the user has not configured an email address.
+9788,051 (9) Próba przywracania zakończona niepomyślnie.

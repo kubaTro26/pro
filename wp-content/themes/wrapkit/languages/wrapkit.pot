@@ -1,0 +1,4186 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SD Theme\n"
+"POT-Creation-Date: 2019-04-01 21:07+0300\n"
+"PO-Revision-Date: 2017-03-04 03:55+0200\n"
+"Last-Translator: Skat Design <royal.flush@rocketmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_c;_nc:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:31
+msgid "404"
+msgstr ""
+
+#: 404.php:32
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: archive.php:33 blog.php:50 index.php:49 page.php:25 search.php:32
+#: single-portfolio.php:22 single.php:126
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "Comments (1)"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "Comments (%1$s)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+msgid "Name*"
+msgstr ""
+
+#: comments.php:79
+msgid "E-mail*"
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: comments.php:85 framework/inc/theme-functions/comments.php:53
+msgid "Reply"
+msgstr ""
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:89
+msgid "Add Comment"
+msgstr ""
+
+#: comments.php:90
+msgid "Comment*"
+msgstr ""
+
+#: comments.php:91
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:92
+msgid "Your Email address will not be published"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:35
+#: framework/admin/admin-options/admin-options.php:39
+#: framework/admin/admin-options/admin-options.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:127
+msgid "General"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:132
+msgid "Maintenance Mode"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:133
+msgid "Enable or disable maintenance mode."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:135
+#: framework/admin/admin-options/admin-options.php:221
+#: framework/admin/admin-options/admin-options.php:237
+#: framework/admin/admin-options/admin-options.php:281
+#: framework/admin/admin-options/admin-options.php:299
+#: framework/admin/admin-options/admin-options.php:561
+#: framework/admin/admin-options/admin-options.php:586
+#: framework/admin/admin-options/admin-options.php:695
+#: framework/admin/admin-options/admin-options.php:778
+#: framework/admin/admin-options/admin-options.php:861
+#: framework/admin/admin-options/admin-options.php:937
+#: framework/admin/admin-options/admin-options.php:952
+#: framework/admin/admin-options/admin-options.php:974
+#: framework/admin/admin-options/admin-options.php:1062
+#: framework/admin/admin-options/admin-options.php:1096
+#: framework/admin/admin-options/admin-options.php:1128
+#: framework/admin/admin-options/admin-options.php:1140
+#: framework/admin/admin-options/admin-options.php:1195
+#: framework/admin/admin-options/admin-options.php:1227
+#: framework/admin/admin-options/admin-options.php:1293
+#: framework/admin/admin-options/admin-options.php:1307
+#: framework/admin/admin-options/admin-options.php:1328
+#: framework/admin/admin-options/admin-options.php:1340
+#: framework/admin/admin-options/admin-options.php:1408
+#: framework/admin/admin-options/admin-options.php:1440
+#: framework/admin/admin-options/admin-options.php:1576
+#: framework/admin/admin-options/admin-options.php:1599
+#: framework/admin/admin-options/admin-options.php:1608
+#: framework/admin/admin-options/admin-options.php:2209
+#: framework/admin/admin-options/admin-options.php:2252
+#: framework/admin/admin-options/admin-options.php:2358
+#: framework/admin/admin-options/admin-options.php:2409
+#: framework/admin/admin-options/admin-options.php:2463
+#: framework/admin/admin-options/admin-options.php:2504
+msgid "Enabled"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:136
+#: framework/admin/admin-options/admin-options.php:222
+#: framework/admin/admin-options/admin-options.php:238
+#: framework/admin/admin-options/admin-options.php:282
+#: framework/admin/admin-options/admin-options.php:300
+#: framework/admin/admin-options/admin-options.php:562
+#: framework/admin/admin-options/admin-options.php:587
+#: framework/admin/admin-options/admin-options.php:696
+#: framework/admin/admin-options/admin-options.php:779
+#: framework/admin/admin-options/admin-options.php:862
+#: framework/admin/admin-options/admin-options.php:938
+#: framework/admin/admin-options/admin-options.php:953
+#: framework/admin/admin-options/admin-options.php:975
+#: framework/admin/admin-options/admin-options.php:1063
+#: framework/admin/admin-options/admin-options.php:1097
+#: framework/admin/admin-options/admin-options.php:1129
+#: framework/admin/admin-options/admin-options.php:1141
+#: framework/admin/admin-options/admin-options.php:1196
+#: framework/admin/admin-options/admin-options.php:1228
+#: framework/admin/admin-options/admin-options.php:1294
+#: framework/admin/admin-options/admin-options.php:1308
+#: framework/admin/admin-options/admin-options.php:1329
+#: framework/admin/admin-options/admin-options.php:1341
+#: framework/admin/admin-options/admin-options.php:1409
+#: framework/admin/admin-options/admin-options.php:1441
+#: framework/admin/admin-options/admin-options.php:1577
+#: framework/admin/admin-options/admin-options.php:1600
+#: framework/admin/admin-options/admin-options.php:1609
+#: framework/admin/admin-options/admin-options.php:2210
+#: framework/admin/admin-options/admin-options.php:2253
+#: framework/admin/admin-options/admin-options.php:2359
+#: framework/admin/admin-options/admin-options.php:2410
+#: framework/admin/admin-options/admin-options.php:2464
+#: framework/admin/admin-options/admin-options.php:2505
+msgid "Disabled"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:142
+msgid "Maintenance Logo"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:143
+msgid "Upload your custom maintenance logo image."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:152
+msgid "Website Layout"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:153
+msgid "Select the layout of the website."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:155
+#: framework/admin/admin-options/admin-options.php:2287
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:156
+msgid "Boxed"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:163
+msgid "Pagination Type"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:164
+msgid "Select the type of pagination."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:165
+msgid "Pagination appears on blog, event pages and also on their archive pages."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:168
+msgid "Default WordPress Pagination"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:172
+msgid "Page Numbers"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:181
+msgid "Next Posts"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:182
+msgid "NEXT"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:188
+msgid "Previous Posts"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:189
+msgid "PREVIOUS"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:197
+msgid "Modules"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:206
+msgid "After making any changes make sure you go to Settings > Permalinks and hit \"Save Changes\" to flush the permalinks."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:213
+#: framework/admin/admin-options/admin-options.php:218
+msgid "Testimonials Module"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:219
+msgid "Enable or disable the testimonials module."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:229
+#: framework/admin/admin-options/admin-options.php:234
+msgid "Fitness Module"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:235
+msgid "Enable or disable the fitness module."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:243
+msgid "Classes Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:244
+msgid "Rename the slug of the classes."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:245
+#: framework/admin/admin-options/admin-options.php:254
+#: framework/admin/admin-options/admin-options.php:263
+#: framework/admin/admin-options/admin-options.php:272
+#: framework/admin/admin-options/admin-options.php:307
+#: framework/admin/admin-options/admin-options.php:316
+msgid " After making changes to this field make sure you go to Settings > Permalinks and hit \"Save Changes\" to prevent any 404 errors."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:252
+msgid "Classes Taxonomy Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:253
+msgid "Rename the slug of the classes category taxonomy."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:261
+msgid "Trainers Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:262
+msgid "Rename the slug of the trainers."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:270
+msgid "Trainers Taxonomy Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:271
+msgid "Rename the slug of the trainers category taxonomy."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:279
+msgid "Share Icons"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:280
+msgid "Enable or disable the share icons."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:291
+#: framework/admin/admin-options/admin-options.php:296
+msgid "Portfolio Module"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:297
+msgid "Enable or disable the portfolio module."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:305
+msgid "Portfolio Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:306
+msgid "Rename the slug of the portfolio."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:314
+msgid "Portfolio Taxonomy Slug"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:315
+msgid "Rename the slug of the portfolio category taxonomy."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:324
+msgid "Header"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:331
+msgid "Header Content Padding"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:332
+msgid "Adjust the padding of the header content."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:348
+msgid "Logo Top Margin"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:349
+msgid "Adjust the top margin of the logo."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:361
+msgid "Menu Top Margin"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:362
+msgid "Adjust the top margin of the menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:374
+msgid "Header Style"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:375
+msgid "Select the layout of the header."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:380
+msgid "Header Style 1"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:385
+msgid "Header Style 2"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:390
+msgid "Header Style 3"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:395
+msgid "Header Style 4"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:400
+msgid "Header Style 5"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:405
+msgid "Header Style 6"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:410
+msgid "Header Style 7. Mega Menus not available for this header style"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:415
+msgid "Header Style 8"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:420
+msgid "Header Style 9"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:425
+msgid "Header Style 10"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:430
+msgid "Header Style 11"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:435
+msgid "Header Style 12"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:440
+msgid "Header Style 13"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:445
+msgid "Header Style 14"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:450
+msgid "Header Style 15"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:458
+msgid "Header 1 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:464
+msgid "Header 2 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:470
+msgid "Right Menu Link 1 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:471
+#: framework/admin/admin-options/admin-options.php:502
+#: framework/admin/admin-options/admin-options.php:525
+#: framework/inc/metabox/the-meta-boxes.php:279
+#: framework/inc/metabox/the-meta-boxes.php:285
+msgid "Leave blank to hide"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:478
+msgid "Right Menu Link 1 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:479
+msgid "Insert the url of the link 1 on the right side menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:486
+msgid "Right Menu Link 1 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:487
+msgid "Check to open the link 1 url in a new window."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:493
+msgid "Right Menu Link 1 Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:494
+#: framework/admin/admin-options/admin-options.php:577
+#: framework/admin/admin-options/admin-options.php:602
+#: framework/admin/admin-options/admin-options.php:610
+#: framework/admin/admin-options/admin-options.php:638
+#: framework/admin/admin-options/admin-options.php:667
+#: framework/admin/admin-options/admin-options.php:704
+#: framework/admin/admin-options/admin-options.php:715
+#: framework/admin/admin-options/admin-options.php:746
+#: framework/admin/admin-options/admin-options.php:811
+#: framework/admin/admin-options/admin-options.php:833
+#: framework/admin/admin-options/admin-options.php:870
+#: framework/admin/admin-options/admin-options.php:881
+#: framework/admin/admin-options/admin-options.php:912
+#: framework/admin/admin-options/admin-options.php:920
+#: framework/admin/admin-options/admin-options.php:928
+#: framework/admin/admin-options/admin-options.php:960
+#: framework/admin/admin-options/admin-options.php:983
+#: framework/admin/admin-options/admin-options.php:1014
+#: framework/admin/admin-options/admin-options.php:1045
+#: framework/admin/admin-options/admin-options.php:1053
+#: framework/admin/admin-options/admin-options.php:1070
+#: framework/admin/admin-options/admin-options.php:1105
+#: framework/admin/admin-options/admin-options.php:1116
+#: framework/admin/admin-options/admin-options.php:1151
+#: framework/admin/admin-options/admin-options.php:1159
+#: framework/admin/admin-options/admin-options.php:1167
+#: framework/admin/admin-options/admin-options.php:1204
+#: framework/admin/admin-options/admin-options.php:1215
+#: framework/admin/admin-options/admin-options.php:1246
+#: framework/admin/admin-options/admin-options.php:1262
+#: framework/admin/admin-options/admin-options.php:1270
+#: framework/admin/admin-options/admin-options.php:1316
+#: framework/admin/admin-options/admin-options.php:1348
+#: framework/admin/admin-options/admin-options.php:1364
+#: framework/admin/admin-options/admin-options.php:1372
+#: framework/admin/admin-options/admin-options.php:1380
+#: framework/admin/admin-options/admin-options.php:1417
+#: framework/admin/admin-options/admin-options.php:1428
+#: framework/admin/admin-options/admin-options.php:1451
+#: framework/admin/admin-options/admin-options.php:1467
+#: framework/admin/admin-options/admin-options.php:1475
+#: framework/admin/admin-options/admin-options.php:1513
+#: framework/admin/admin-options/admin-options.php:1543
+#: framework/admin/admin-options/admin-options.php:1559
+#: framework/admin/admin-options/admin-options.php:1584
+#: framework/admin/admin-options/admin-options.php:2422
+#: framework/admin/admin-options/admin-options.php:2429
+#: framework/admin/admin-options/admin-options.php:2495
+#: framework/admin/admin-options/admin-options.php:2512
+#: framework/admin/admin-options/admin-options.php:2527
+#: framework/admin/admin-options/admin-options.php:2535
+#: framework/admin/admin-options/admin-options.php:2543
+#: framework/admin/admin-options/admin-options.php:2551
+#: framework/admin/admin-options/admin-options.php:2559
+msgid "Leave blank to hide."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:501
+msgid "Right Menu Link 2 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:509
+msgid "Right Menu Link 2 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:510
+msgid "Insert the url of the link 2 on the right side menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:517
+msgid "Right Menu Link 2 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:518
+msgid "Check to open the link 2 url in a new window."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:524
+msgid "Right Menu Button Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:532
+msgid "Right Menu Button"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:533
+msgid "Insert the url of the button on the right side menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:540
+msgid "Right Menu Button Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:541
+#: framework/admin/admin-options/admin-options.php:625
+#: framework/admin/admin-options/admin-options.php:653
+#: framework/admin/admin-options/admin-options.php:682
+#: framework/admin/admin-options/admin-options.php:736
+#: framework/admin/admin-options/admin-options.php:767
+#: framework/admin/admin-options/admin-options.php:800
+#: framework/admin/admin-options/admin-options.php:826
+#: framework/admin/admin-options/admin-options.php:848
+#: framework/admin/admin-options/admin-options.php:902
+#: framework/admin/admin-options/admin-options.php:1004
+#: framework/admin/admin-options/admin-options.php:1035
+#: framework/admin/admin-options/admin-options.php:1083
+#: framework/admin/admin-options/admin-options.php:1182
+#: framework/admin/admin-options/admin-options.php:1285
+#: framework/admin/admin-options/admin-options.php:1395
+#: framework/admin/admin-options/admin-options.php:1490
+#: framework/admin/admin-options/admin-options.php:1528
+msgid "Check to open the button url in a new window."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:547
+msgid "Header 3 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:553
+msgid "Header 4 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:559
+#: framework/admin/admin-options/admin-options.php:1138
+#: framework/admin/admin-options/admin-options.php:1291
+#: framework/admin/admin-options/admin-options.php:1338
+msgid "Search Form"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:568
+msgid "Email Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:569
+#: framework/admin/admin-options/admin-options.php:594
+#: framework/admin/admin-options/admin-options.php:1238
+#: framework/admin/admin-options/admin-options.php:1254
+#: framework/admin/admin-options/admin-options.php:1356
+#: framework/admin/admin-options/admin-options.php:1459
+#: framework/admin/admin-options/admin-options.php:1551
+msgid "Required."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:570
+#: framework/admin/admin-options/admin-options.php:1239
+msgid "EMAIL US AT"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:576
+msgid "Email Address"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:584
+#: framework/admin/admin-options/admin-options.php:935
+#: framework/admin/admin-options/admin-options.php:950
+#: framework/admin/admin-options/admin-options.php:1060
+#: framework/admin/admin-options/admin-options.php:1126
+#: framework/admin/admin-options/admin-options.php:1225
+#: framework/admin/admin-options/admin-options.php:1326
+#: framework/admin/admin-options/admin-options.php:1438
+#: framework/admin/admin-options/admin-options.php:1597
+#: framework/admin/admin-options/admin-options.php:2461
+#: framework/inc/widgets/social-icons.php:22
+msgid "Social Icons"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:593
+#: framework/admin/admin-options/admin-options.php:1150
+#: framework/admin/admin-options/admin-options.php:1253
+#: framework/admin/admin-options/admin-options.php:1355
+#: framework/admin/admin-options/admin-options.php:1458
+#: framework/admin/admin-options/admin-options.php:1550
+msgid "Phone Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:595
+#: framework/admin/admin-options/admin-options.php:1255
+msgid "CALL US NOW"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:601
+msgid "Phone Number"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:609
+#: framework/admin/admin-options/admin-options.php:880
+#: framework/admin/admin-options/admin-options.php:1069
+#: framework/admin/admin-options/admin-options.php:1166
+#: framework/admin/admin-options/admin-options.php:1269
+#: framework/admin/admin-options/admin-options.php:1379
+#: framework/admin/admin-options/admin-options.php:1474
+#: framework/admin/admin-options/admin-options.php:1512
+msgid "Button Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:611
+msgid "DONATE NOW"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:617
+#: framework/admin/admin-options/admin-options.php:891
+#: framework/admin/admin-options/admin-options.php:1076
+#: framework/admin/admin-options/admin-options.php:1174
+#: framework/admin/admin-options/admin-options.php:1277
+#: framework/admin/admin-options/admin-options.php:1387
+#: framework/admin/admin-options/admin-options.php:1482
+#: framework/admin/admin-options/admin-options.php:1520
+msgid "Button Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:624
+#: framework/admin/admin-options/admin-options.php:1082
+#: framework/admin/admin-options/admin-options.php:1181
+#: framework/admin/admin-options/admin-options.php:1284
+#: framework/admin/admin-options/admin-options.php:1394
+#: framework/admin/admin-options/admin-options.php:1489
+#: framework/admin/admin-options/admin-options.php:1527
+msgid "Button Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:631
+msgid "Header 5 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:637
+msgid "Link 1 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:639
+msgid "LOGIN"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:645
+msgid "Link 1 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:652
+msgid "Link 1 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:659
+msgid "Links Separator Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:666
+msgid "Link 2 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:668
+msgid "REGISTER"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:674
+msgid "Link 2 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:681
+msgid "Link 2 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:688
+msgid "Header 6 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:694
+#: framework/admin/admin-options/admin-options.php:860
+#: framework/admin/admin-options/admin-options.php:973
+#: framework/admin/admin-options/admin-options.php:1095
+#: framework/admin/admin-options/admin-options.php:1194
+#: framework/admin/admin-options/admin-options.php:1306
+#: framework/admin/admin-options/admin-options.php:1407
+msgid "Top Bar"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:703
+#: framework/admin/admin-options/admin-options.php:869
+#: framework/admin/admin-options/admin-options.php:1203
+#: framework/admin/admin-options/admin-options.php:1416
+msgid "Top Bar Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:705
+#: framework/admin/admin-options/admin-options.php:871
+msgid "Welcome to WrapKit, Your Solution for All Web Needs"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:714
+#: framework/admin/admin-options/admin-options.php:982
+msgid "Top Bar Link 1 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:716
+#: framework/admin/admin-options/admin-options.php:984
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:725
+#: framework/admin/admin-options/admin-options.php:993
+msgid "Top Bar Link 1 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:735
+#: framework/admin/admin-options/admin-options.php:1003
+msgid "Top Bar Link 1 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:745
+#: framework/admin/admin-options/admin-options.php:1013
+msgid "Top Bar Link 2 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:747
+msgid "Create Account"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:756
+#: framework/admin/admin-options/admin-options.php:1024
+msgid "Top Bar Link 2 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:766
+#: framework/admin/admin-options/admin-options.php:1034
+msgid "Top Bar Link 2 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:776
+msgid "Top Bar Cart Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:788
+msgid "Top Bar Cart Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:799
+msgid "Top Bar Cart Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:810
+msgid "Button 1 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:812
+msgid "Contact Us"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:818
+msgid "Button 1 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:825
+msgid "Button 1 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:832
+msgid "Button 2 Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:834
+msgid "Sign Up"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:840
+msgid "Button 2 Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:847
+msgid "Button 2 Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:854
+msgid "Header 7 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:882
+msgid "FREE CONSULTATION"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:901
+msgid "ButtonTarget"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:911
+#: framework/admin/admin-options/admin-options.php:1044
+#: framework/admin/admin-options/admin-options.php:1104
+#: framework/admin/admin-options/admin-options.php:1237
+#: framework/admin/admin-options/admin-options.php:1245
+#: framework/admin/admin-options/admin-options.php:1427
+#: woocommerce/single-product-reviews.php:76
+msgid "Email"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:919
+#: framework/admin/admin-options/admin-options.php:959
+#: framework/admin/admin-options/admin-options.php:1052
+#: framework/admin/admin-options/admin-options.php:1158
+#: framework/admin/admin-options/admin-options.php:1261
+#: framework/admin/admin-options/admin-options.php:1363
+#: framework/admin/admin-options/admin-options.php:1466
+#: framework/admin/admin-options/admin-options.php:1558
+msgid "Phone #"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:927
+#: framework/admin/admin-options/admin-options.php:1115
+#: framework/admin/admin-options/admin-options.php:1214
+#: framework/admin/admin-options/admin-options.php:1315
+msgid "Hours"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:944
+msgid "Header 8 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:967
+msgid "Header 9 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1015
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1089
+msgid "Header 10 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1152
+#: framework/admin/admin-options/admin-options.php:1552
+msgid "CALL US ON"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1168
+#: framework/admin/admin-options/admin-options.php:1514
+msgid "Get Free Quote"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1188
+msgid "Header 11 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1205
+msgid "We build awesome kits like this one here!"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1216
+msgid "Mon to Sat - 9:00-18:00 | Sunday - Closed"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1271
+msgid "REQUEST A QUOTE"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1300
+msgid "Header 12 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1317
+msgid "Opening Hours : Monday to Saturday - 8am to 9pm"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1347
+msgid "Address"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1357
+msgid "GET APPOINTMENT"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1371
+msgid "Button Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1381
+msgid "Book an Appointment"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1401
+msgid "Header 13 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1418
+msgid "Welcome to Divine Food Restaurant"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1450
+msgid "Opening Hours"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1460
+msgid "Book Table"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1476
+msgid "RESERVE TABLE"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1496
+msgid "Header 14 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1503
+msgid "Modal Menu Logo"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1534
+msgid "Show Button on Modal?"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1535
+msgid "Check to show button on modal menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1542
+msgid "Modal Email"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1566
+msgid "Show Phone on Modal?"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1567
+msgid "Check to show phone on modal menu."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1574
+msgid "Modal Social Icons"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1583
+msgid "Modal Copyright"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1591
+msgid "Header 15 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1606
+#: framework/admin/admin-options/admin-options.php:1818
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1619
+#: framework/admin/admin-options/admin-options.php:1625
+msgid "Header Social Icons"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1626
+msgid "Define and reorder the social icons however you want."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1627
+msgid "Leave any field blank if you don't want to display it ."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1661
+msgid "Header Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1667
+#: framework/admin/admin-options/admin-options.php:2573
+msgid "General Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1672
+msgid "Header Background"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1673
+msgid "Select the header background color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1681
+msgid "Menu Typography"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1682
+msgid "Specify the menu font properties."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1696
+msgid "Flyout Menu Font Size"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1711
+msgid "Menu Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1719
+msgid "Menu Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1729
+msgid "Menu Flyout Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1738
+msgid "Menu Flyout Link Background Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1746
+msgid "Menu Flyout Link Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1755
+msgid "Menu Flyout Link Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1764
+msgid "Mega Menu Link Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1773
+msgid "Mega Menu Link Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1782
+msgid "Flyout Header Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1791
+msgid "Flyout Separator Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1799
+msgid "Mobile Menu Toggle Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1811
+msgid "Transparent header background color on Mobile"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1812
+msgid "Select the background color of the transparent header on small screens / mobile devices."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1819
+msgid "Select the sticky header background color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1826
+msgid "Header 1 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1832
+msgid "Header 2 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1838
+msgid "Header 4 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1844
+msgid "Header 6 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1850
+msgid "Header 7 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1856
+msgid "Header 8 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1862
+msgid "Header 9 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1868
+msgid "Header 10 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1874
+msgid "Header 11 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1880
+msgid "Header 12 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1886
+msgid "Header 13 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1892
+msgid "Header 14 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1898
+msgid "Header 15 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1904
+msgid "Button Border"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1911
+msgid "Button Border Hover"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1919
+msgid "Button Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1930
+msgid "Button Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1938
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1946
+msgid "Button 2 Border"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1953
+msgid "Button 2 Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1964
+msgid "Button 2 Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1972
+msgid "Button 2 Background Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1980
+msgid "Header 3 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1986
+msgid "Top Bar Items Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:1997
+#: framework/admin/admin-options/admin-options.php:2091
+#: framework/admin/admin-options/admin-options.php:2743
+msgid "Border Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2005
+msgid "Logo Container Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2013
+msgid "Menu Item Hover Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2021
+msgid "Email & Phone Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2030
+msgid "Header 5 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2036
+msgid "Dual Links Border Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2044
+msgid "Dual Links Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2055
+msgid "Dual Links Separator Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2063
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2071
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2080
+msgid "Top Bar Links Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2100
+msgid "Logo & Nav Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2109
+msgid "Contact Icons Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2118
+msgid "Contact Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2127
+#: framework/admin/admin-options/admin-options.php:2187
+#: framework/admin/admin-options/admin-options.php:2806
+msgid "Social Icons Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2138
+msgid "Contact Phone Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2147
+msgid "Menu Bar Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2155
+msgid "Menu Toggle Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2163
+msgid "Menu Toggle Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2171
+msgid "Modal Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2179
+#: framework/admin/admin-options/admin-options.php:2666
+msgid "Copyright Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2199
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2206
+msgid "Blog Post Meta"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2207
+msgid "Enable or disable the blog post meta."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2215
+msgid "Blog Post Meta Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2216
+msgid "Select what info do you want to display for the blog meta."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2217
+msgid "This info appears right on top of the post title."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2219
+msgid "Post date"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2220
+msgid "Post author"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2221
+msgid "Categories"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2222
+msgid "Tags"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2223
+msgid "Number of comments"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2237
+msgid "Share Links"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2238
+msgid "Enable or disable Facebook & Twitter share buttons."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2249
+msgid "Next/Previous Post Links"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2250
+msgid "Enable or disable the next/previous links at the bottom of the single post."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2258
+msgid "Next Post"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2259
+msgid "NEXT POST"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2265
+msgid "Previous Post"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2266
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2275
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2283
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2284
+msgid "Select the sidebar layout for the shop page."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2286
+msgid "With Sidebar"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2294
+msgid "Shop Columns"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2296
+msgid "2 Columns"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2297
+#: framework/inc/metabox/the-meta-boxes.php:315
+msgid "3 Columns"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2298
+#: framework/inc/metabox/the-meta-boxes.php:316
+msgid "4 Columns"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2305
+msgid "Number of Products"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2306
+msgid "Number of products to display on the shop page."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2314
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2321
+msgid "Footer Style"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2322
+msgid "Select the layout of the footer."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2327
+msgid "Footer Style 1"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2332
+msgid "Footer Style 2"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2337
+msgid "Footer Style 3"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2342
+msgid "Footer Style 4"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2347
+msgid "Footer Style 5"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2355
+msgid "Widgetized Footer"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2356
+msgid "Enable or disable the footer widgets section."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2365
+msgid "Footer Sidebars Layout"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2366
+msgid "Select the layout of the sidebars in the footer."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2369
+msgid "2 Sidebars Equal"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2373
+msgid "3 Sidebars"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2377
+msgid "4 Sidebars"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2381
+msgid "1 Small + 1 Large + 1 Small"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2385
+msgid "1 Small + 1 Large"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2389
+msgid "1 Large + 1 Small"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2393
+msgid "1 Large + 2 Small"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2397
+msgid "2 Small + 1 Large"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2407
+msgid "Back to Top"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2415
+msgid "Footer 1 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2421
+msgid "Call to Action Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2428
+msgid "Call to Action Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2436
+msgid "Call to Action Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2442
+msgid "Call to Action Target"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2443
+msgid "Check to open the url in a new window."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2449
+msgid "Footer 3 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2455
+msgid "Footer 5 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2470
+msgid "Footer 2 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2476
+msgid "Footer 4 Options"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2483
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2484
+msgid "Upload your custom logo image."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2494
+msgid "Custom Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2502
+msgid "Newsletter"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2511
+msgid "Newsletter Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2519
+msgid "Newsletter Button Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2520
+msgid "Go!"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2526
+msgid "Text 1 Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2534
+msgid "Text 1"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2542
+msgid "Text 2 Icon"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2550
+msgid "Text 2"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2558
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2567
+msgid "Footer Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2578
+msgid "Footer Background"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2579
+msgid "Select the footer background color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2586
+msgid "Footer Bottom Padding"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2587
+msgid "Insert the footer bottom padding."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2588
+msgid "Default is 0 (mostly used when a background image is set up)"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2603
+msgid "Footer Widget Titles"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2604
+msgid "Select the footer widget titles color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2615
+msgid "Footer Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2616
+msgid "Select the footer text color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2623
+msgid "Footer Links"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2624
+msgid "Select the footer link colors."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2634
+msgid "Back to Top Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2642
+msgid "Back to Top Hover Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2650
+msgid "Back to Top Arrow Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2658
+msgid "Back to Top Arrow Hover Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2673
+msgid "Copyright Links Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2683
+msgid "Footer 1 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2689
+msgid "Footer 2 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2695
+msgid "Footer 3 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2701
+msgid "Footer 4 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2707
+msgid "Footer 5 Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2713
+msgid "Menu Links Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2724
+msgid "Call to Action Icon Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2732
+msgid "Call to Action Link Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2750
+msgid "Description Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2758
+msgid "Newsletter Input Border Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2766
+msgid "Newsletter Input Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2774
+msgid "Newsletter Input Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2782
+msgid "Newsletter Button Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2790
+msgid "Newsletter Button Text Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2798
+msgid "Content Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2818
+msgid "Social Icons Background Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2826
+msgid "Typography"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2833
+msgid "Body"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2834
+msgid "Specify the body font properties."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2845
+msgid "Headings"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2846
+msgid "Specify the headings font properties."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2847
+msgid "(h1, h2, h3, h4, h5, h6 headings)"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2860
+msgid "Page Titles"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2861
+msgid "Specify the page titles font properties."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2873
+msgid "Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2880
+msgid "Theme Main Accent Color"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2881
+msgid "Select the main color of the theme."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2895
+msgid "Body Background"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2896
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2902
+msgid "Page Top Titles Styling"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2907
+msgid "Page Title Padding"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2908
+msgid "Insert your custom page title paddings."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2923
+msgid "Page Top Background"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2924
+msgid "Select the page top titles background color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2931
+msgid "Page Top Titles"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2932
+msgid "Select the page top titles color."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2940
+msgid "404 Page"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2947
+msgid "404 Page Top Background"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2948
+msgid "Select the 404 background image."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2955
+msgid "404 Page Title"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2956
+msgid "Insert a custom 404 error page title."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2957
+msgid "Page Not Found"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2962
+msgid "404 Page Content"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2963
+msgid "Insert your custom content for the 404 error page."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2972
+msgid "404 Page Button Text"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2973
+msgid "Insert the text of the button on the 404 page."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2974
+msgid "Leave empty to hide button."
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2975
+msgid "GO HOME"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2980
+msgid "404 Page Button Url"
+msgstr ""
+
+#: framework/admin/admin-options/admin-options.php:2981
+msgid "Insert the url of the button on the 404 page."
+msgstr ""
+
+#: framework/inc/copyright.php:61
+msgid "Copyright"
+msgstr ""
+
+#: framework/inc/enqueue.php:22
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/inc/enqueue.php:78
+#: framework/inc/theme-functions/woocommerce.php:113
+#: framework/inc/theme-functions/woocommerce.php:133
+msgid "Add Again?"
+msgstr ""
+
+#: framework/inc/footer-1.php:33
+msgid "Footer Navbar"
+msgstr ""
+
+#: framework/inc/footer-1.php:34
+msgid "Toggle navigation"
+msgstr ""
+
+#: framework/inc/footer-3.php:68
+msgid "Sign up for updates"
+msgstr ""
+
+#: framework/inc/header-10.php:35 framework/inc/header-11.php:35
+#: framework/inc/header-12.php:35 framework/inc/header-13.php:34
+#: framework/inc/header-9.php:37
+msgid "Top Menu"
+msgstr ""
+
+#: framework/inc/header-10.php:62 framework/inc/header-11.php:115
+#: framework/inc/header-12.php:53 framework/inc/header-4.php:42
+msgid "Type & hit enter"
+msgstr ""
+
+#: framework/inc/header-11.php:102 framework/inc/header-12.php:127
+#: framework/inc/header-13.php:125
+msgid "Navigation"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/about.php:50
+msgid "About"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:13
+msgid "Getting Started With Online Generator"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:14
+msgid "The fastest way to getting started with Meta Box is use our online generator to generate meta boxes with custom fields. It provides a friendly UI for you to create meta boxes and custom fields just by drag and drop fields."
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:16
+msgid "online generator"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:18
+msgid "Go to Online Generator"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:22
+msgid "Understand The Basics"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:23
+msgid "Meta Box doesn't have any admin page for configuration or settings. Instead of that, it provides a very powerful API to speed up the process of creating meta boxes and custom fields. It might take you a little time at first, but then you'll love the way it work because it helps you do and customize almost everything."
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:24
+msgid "Learn More"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:26
+#: framework/inc/metabox/inc/core.php:32
+msgid "Extensions"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:27
+msgid "Wanna more features that transform your WordPress website into a powerful CMS? Check out some extensions below:"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:29
+msgid "Meta Box Group"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:30
+msgid "Meta Box Conditional Logic"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:31
+msgid "MB Settings Page"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:32
+msgid "MB Term Meta"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:34
+msgid "More Extensions"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/getting-started.php:39
+msgid "Go to MetaBox.IO &rarr;"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/tabs.php:11
+msgid "Getting Started"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/welcome.php:13
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: framework/inc/metabox/inc/about/sections/welcome.php:16
+msgid "This plugin is a lightweight and powerful toolkit that helps you to create custom meta boxes and custom fields in WordPress fast and easy. Follow the instruction below to get started."
+msgstr ""
+
+#: framework/inc/metabox/inc/core.php:31
+msgid "Documentation"
+msgstr ""
+
+#: framework/inc/metabox/inc/field.php:356
+msgid "+ Add more"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/autocomplete.php:20
+#: framework/inc/metabox/inc/fields/autocomplete.php:81
+#: framework/inc/metabox/inc/fields/autocomplete.php:93
+msgid "Delete"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/button.php:32
+msgid "Click me"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/checkbox.php:50
+#: framework/inc/metabox/the-meta-boxes.php:126
+#: framework/inc/metabox/the-meta-boxes.php:132
+#: framework/inc/metabox/the-meta-boxes.php:153
+#: framework/inc/metabox/the-meta-boxes.php:159
+#: framework/inc/metabox/the-meta-boxes.php:175
+#: framework/inc/metabox/the-meta-boxes.php:211 framework/inc/vc/update.php:20
+msgid "Yes"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/checkbox.php:50
+#: framework/inc/vc/update.php:21
+msgid "No"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file-input.php:19
+msgid "Select File"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file-input.php:38
+#: framework/inc/metabox/inc/fields/select.php:87
+msgid "Select"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file-input.php:40
+msgid "Remove"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:21
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:47
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:59
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:109
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/file.php:110
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/input-list.php:81
+msgid "Select All / None"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/key-value.php:115
+msgid "Key"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/key-value.php:116
+msgid "Value"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/map.php:62
+msgid "Find Address"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:24
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:25
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:26
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:27
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:28
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:29
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:30
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:33
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:34
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/media.php:35
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/oembed.php:64
+msgid "Embed HTML not available."
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/post.php:36
+msgid "Select a post"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/post.php:41
+#: framework/inc/metabox/inc/fields/taxonomy.php:52
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/select-advanced.php:45
+msgid "Select an item"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/select.php:87
+msgid "All"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/select.php:87
+msgid "None"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/taxonomy.php:47
+msgid "Select a term"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/thickbox-image.php:55
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: framework/inc/metabox/inc/fields/user.php:30
+msgid "Select an user"
+msgstr ""
+
+#: framework/inc/metabox/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:16
+msgid "No contact forms found"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:26
+msgid "Gallery Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:35
+msgid "Gallery Images"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:38
+msgid "Insert the gallery images."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:45
+msgid "Video Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:54
+msgid "Video Url"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:57
+msgid "Insert the video url."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:64
+msgid "Audio Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:73
+msgid "Audio Url"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:77
+msgid "Insert the audio url."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:83
+msgid "Blog Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:92
+msgid "Category Ids"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:96
+msgid "Insert the category ids you want to pull posts from (optional, comma separated, eg. 5,7)."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:105
+#: framework/inc/metabox/the-meta-boxes.php:166
+msgid "Page Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:111
+msgid "Page Title Padding Top"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:114
+msgid "e.g 100px (default is 50px)"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:117
+msgid "Page Subtitle"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:120
+msgid "Optional"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:123
+msgid "Hide page title?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:129
+msgid "Transparent Header?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:140
+msgid "No Header or Footer"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:150
+msgid "Hide Header?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:156
+msgid "Hide Footer?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:172
+msgid "Show top page title?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:178
+msgid "Insert a Custom Page title or leave blank for default page title"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:181
+msgid "Insert a custom post title."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:185
+msgid "Page Title Background Padding Top in Pixels"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:188
+msgid "Insert custom padding top for the page background (eg. 121px)."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:192
+msgid "Page Title Background Padding Bottom in Pixels"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:195
+msgid "Insert custom padding bottom for the page background (eg. 121px)."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:199
+msgid "Custom Header Page Background"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:200
+msgid "Upload your custom header page background (optimal size 2170x213 for full image)"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:207
+msgid "Background Repeat?"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:215
+msgid "Background Repeat Horizontally"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:219
+msgid "Header background repeat horizontaly"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:223
+msgid "Background Repeat Vertically"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:227
+msgid "Header background repeat vertically"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:231
+msgid "Background Color"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:235
+msgid "Header background color"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:239
+msgid "Title Color"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:243
+msgid "Header title color"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:252
+msgid "Testimonial Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:258
+msgid "Testimonial Description"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:261
+msgid "(eg. CEO) Leave empty to hide"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:270
+msgid "Classes Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:276
+msgid "Class Trainer"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:282
+msgid "Class Hours"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:305
+msgid "SD Mega Menu Options"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:310
+msgid "Menu Layout"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:313
+msgid "Select the layout of the menu."
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:317
+msgid "5 Columns"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:322
+msgid "Mega Menu Column 1"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:325
+msgid "Assign a menu to the first mega menu column"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:326
+#: framework/inc/metabox/the-meta-boxes.php:334
+#: framework/inc/metabox/the-meta-boxes.php:342
+#: framework/inc/metabox/the-meta-boxes.php:350
+#: framework/inc/metabox/the-meta-boxes.php:359
+msgid "Select a Menu"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:330
+msgid "Mega Menu Column 2"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:333
+msgid "Assign a menu to the second mega menu column"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:338
+msgid "Mega Menu Column 3"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:341
+msgid "Assign a menu to the third mega menu column"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:346
+msgid "Mega Menu Column 4"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:349
+msgid "Assign a menu to the fourth mega menu column"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:355
+msgid "Mega Menu Column 5"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:358
+msgid "Assign a menu to the fifth mega menu column"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:383
+msgid "Sidebars"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:390
+msgid "Sidebar"
+msgstr ""
+
+#: framework/inc/metabox/the-meta-boxes.php:393
+msgid "Assign a custom sidebar to your page"
+msgstr ""
+
+#: framework/inc/page-top.php:50
+msgid "All Posts by"
+msgstr ""
+
+#: framework/inc/page-top.php:55
+msgid "Tagged as:"
+msgstr ""
+
+#: framework/inc/page-top.php:61 framework/inc/page-top.php:67
+#: framework/inc/page-top.php:72
+msgid "Archive for"
+msgstr ""
+
+#: framework/inc/page-top.php:78
+msgid "Archive"
+msgstr ""
+
+#: framework/inc/page-top.php:93
+msgid "Search Results for:"
+msgstr ""
+
+#: framework/inc/post-formats/full-width-content-gallery.php:46
+#: framework/inc/post-formats/full-width-content-gallery.php:50
+#: framework/inc/post-formats/single-gallery.php:45
+#: framework/inc/post-formats/single-gallery.php:49
+msgid "Previous"
+msgstr ""
+
+#: framework/inc/post-formats/full-width-content.php:27
+msgid "FEATURED"
+msgstr ""
+
+#: framework/inc/post-meta.php:53
+msgid "0 comments"
+msgstr ""
+
+#: framework/inc/post-meta.php:53
+msgid "1 Comment"
+msgstr ""
+
+#: framework/inc/post-meta.php:53
+#, php-format
+msgid " % comments"
+msgstr ""
+
+#: framework/inc/post-meta.php:53
+msgid "Comments closed"
+msgstr ""
+
+#: framework/inc/share-icons.php:23
+msgid "Facebook"
+msgstr ""
+
+#: framework/inc/share-icons.php:30
+msgid "Twitter"
+msgstr ""
+
+#: framework/inc/share-icons.php:46
+msgid "Delicious"
+msgstr ""
+
+#: framework/inc/share-icons.php:61
+msgid "Digg"
+msgstr ""
+
+#: framework/inc/share-icons.php:69
+msgid "Reddit"
+msgstr ""
+
+#: framework/inc/share-icons.php:77
+msgid "E-Mail"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:334
+#: framework/inc/tgmpa/tgmpa.php:93
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:335
+#: framework/inc/tgmpa/tgmpa.php:94
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:337
+#: framework/inc/tgmpa/tgmpa.php:95
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:340
+#: framework/inc/tgmpa/tgmpa.php:96
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:343
+#: framework/inc/tgmpa/tgmpa.php:97
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:349
+#: framework/inc/tgmpa/tgmpa.php:98
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:355
+#: framework/inc/tgmpa/tgmpa.php:103
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:367
+#: framework/inc/tgmpa/tgmpa.php:100
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:373
+#: framework/inc/tgmpa/tgmpa.php:101
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:378
+#: framework/inc/tgmpa/tgmpa.php:105
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:388
+#: framework/inc/tgmpa/tgmpa.php:106
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:392
+#: framework/inc/tgmpa/tgmpa.php:107
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:393
+#: framework/inc/tgmpa/plugin-activation.php:912
+#: framework/inc/tgmpa/plugin-activation.php:2618
+#: framework/inc/tgmpa/plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:394
+#: framework/inc/tgmpa/plugin-activation.php:3244
+#: framework/inc/tgmpa/tgmpa.php:108
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:395
+#: framework/inc/tgmpa/plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:1019
+#: framework/inc/tgmpa/plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:1206
+#: framework/inc/tgmpa/plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2639
+#: woocommerce/myaccount/my-orders.php:27
+msgid "Status"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/inc/tgmpa/plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:19
+msgid "Slider Revolution"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:29
+msgid "Visual Composer"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:39
+msgid "Ultimate VC Addons"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:59
+msgid "Sidebar Generator"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:65
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:70
+msgid "Really Simple CAPTCHA"
+msgstr ""
+
+#: framework/inc/tgmpa/tgmpa.php:99
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/tgmpa.php:102
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/tgmpa.php:104
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/inc/tgmpa/tgmpa.php:109
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/inc/theme-functions/comments.php:40
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: framework/inc/theme-functions/comments.php:44
+msgid "You comment awaits moderation."
+msgstr ""
+
+#: framework/inc/theme-functions/comments.php:48
+msgid "(Edit)"
+msgstr ""
+
+#: framework/inc/theme-functions/extend-demo-importer.php:15
+msgid "Best if used on new WordPress install."
+msgstr ""
+
+#: framework/inc/theme-functions/extend-demo-importer.php:16
+msgid "Images are for demo purpose only."
+msgstr ""
+
+#: framework/inc/theme-functions/extend-demo-importer.php:17
+msgid "Please be patient. Importing the demo content may take a while."
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:18
+msgid "Main Menu"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:22
+msgid "Secondary Header Menu (if header #3 is selected)"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:26
+msgid "Modal Menu (if header #14 is selected)"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:30
+#: framework/inc/theme-functions/menus.php:160
+msgid "Footer Menu"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:72
+msgid "Main Header Menu"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:90
+msgid "Secondary Header Menu"
+msgstr ""
+
+#: framework/inc/theme-functions/menus.php:105
+msgid "Modal Menu"
+msgstr ""
+
+#: framework/inc/theme-functions/pagination.php:32
+msgid "First"
+msgstr ""
+
+#: framework/inc/theme-functions/pagination.php:42
+msgid "Last"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:270
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:283
+msgctxt "by author"
+msgid "By"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:283
+msgid "All posts by author"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:298
+msgid "Read More"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:308
+msgid "Home"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:415
+#: framework/inc/theme-functions/sd-functions.php:467
+msgid "Email Us"
+msgstr ""
+
+#: framework/inc/theme-functions/sd-functions.php:416
+#: framework/inc/theme-functions/sd-functions.php:471
+msgid "Call:"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:20
+msgid "Main Sidebar"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:22
+msgid "Main sidebar of the site."
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:42
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:44
+msgid "The first sidebar of the footer."
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:53
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:55
+msgid "The second sidebar of the footer."
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:64
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:66
+msgid "The third sidebar of the footer."
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:75
+msgid "Footer Sidebar Four"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:77
+msgid "The fourth sidebar of the footer."
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:88
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/inc/theme-functions/sidebars.php:90
+msgid "Shop sidebar of the site."
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:117
+msgid "Add to Cart"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:137
+msgid "Add to cart"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:156
+#: framework/inc/theme-functions/woocommerce.php:383
+msgid "Sold Out"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:168
+msgid "Sale!"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:198
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:202
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:206
+msgid "Share on Google Plus"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:209
+msgid "Pin on Pinterest"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:212
+msgid "Share on E-Mail"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:366
+msgid "SALE"
+msgstr ""
+
+#: framework/inc/theme-functions/woocommerce.php:375
+msgctxt "% of price"
+msgid "% OFF"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:18
+msgid "Page Title"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:37
+msgid "Banner 1 "
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:60
+msgid "Banner 2 "
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:82
+msgid "Banner 3 "
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:104
+msgid "Banner 4 "
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:127
+msgid "Banner 5 "
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:146
+msgid "Banner 6"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:167
+msgid "Banner 7"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:190
+msgid "Banner 8"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:211
+msgid "Banner 9"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:232
+msgid "Call to action 1"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:251
+msgid "Call to action 2"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:270
+msgid "Call to action 3"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:289
+msgid "Call to action 4"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:308
+msgid "Call to action 5"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:327
+msgid "Call to action 6"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:346
+msgid "Call to action 7"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:365
+msgid "Call to action 8"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:384
+msgid "Call to action 9"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:403
+msgid "Pricing Table 1"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:458
+msgid "Pricing Table 2"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:488
+msgid "Pricing Table 4"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:529
+msgid "Pricing Table 5"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:594
+msgid "Pricing Table 6"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:628
+msgid "Pricing Table 7"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:654
+msgid "Team 1"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:674
+msgid "Team 2"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:694
+msgid "Contact 1"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:718
+msgid "Contact 2"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:739
+msgid "Contact 3"
+msgstr ""
+
+#: framework/inc/vc/layout-templates.php:764
+msgid "Contact 4"
+msgstr ""
+
+#: framework/inc/vc/update.php:17
+msgid "Center content?"
+msgstr ""
+
+#: framework/inc/vc/update.php:33
+msgid "Custom Icon Size"
+msgstr ""
+
+#: framework/inc/vc/update.php:48 framework/inc/vc/update.php:57
+msgid "IcoMoon"
+msgstr ""
+
+#: framework/inc/vc/update.php:68
+msgid "Icon"
+msgstr ""
+
+#: framework/inc/vc/update.php:79
+msgid "Select icon from library."
+msgstr ""
+
+#: framework/inc/widgets/contact.php:22 framework/inc/widgets/contact.php:127
+msgid "Contact"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:23
+msgid "Displays contact info."
+msgstr ""
+
+#: framework/inc/widgets/contact.php:139
+#: framework/inc/widgets/latest-posts.php:87
+#: framework/inc/widgets/popular-posts.php:88
+#: framework/inc/widgets/social-icons.php:118
+msgid "Title:"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:144
+msgid "Address Title:"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:149
+msgid "Address:"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:154
+msgid "Working Hours:"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:159
+msgid "Phone #:"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:164
+msgid "Email:"
+msgstr ""
+
+#: framework/inc/widgets/latest-posts.php:22
+#: framework/inc/widgets/latest-posts.php:79
+msgid "Latest Posts"
+msgstr ""
+
+#: framework/inc/widgets/latest-posts.php:23
+msgid "Displays the latest posts."
+msgstr ""
+
+#: framework/inc/widgets/latest-posts.php:92
+#: framework/inc/widgets/popular-posts.php:93
+msgid "Number of Posts:"
+msgstr ""
+
+#: framework/inc/widgets/popular-posts.php:22
+#: framework/inc/widgets/popular-posts.php:80
+msgid "Popular Posts"
+msgstr ""
+
+#: framework/inc/widgets/popular-posts.php:23
+msgid "Displays the popular posts."
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:23
+msgid "Displays social icons."
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:101
+msgid "Get Social"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:123
+msgid "E-Mail:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:128
+msgid "Facebook:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:133
+msgid "Twitter:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:138
+msgid "Linked In:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:143
+msgid "Google +:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:148
+msgid "Youtube:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:153
+msgid "Vimeo:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:158
+msgid "Pinterest:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:163
+msgid "Instagram:"
+msgstr ""
+
+#: framework/inc/widgets/social-icons.php:168
+msgid "Rss:"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: single-classes.php:41
+msgid "Sorry, no courses matched your criteria"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart.php:40 woocommerce/order/order-details.php:37
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:41
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:42
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:43 woocommerce/myaccount/my-orders.php:28
+#: woocommerce/order/order-details.php:38
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:112
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:135
+msgid "Have a Promotional Code ?"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:26
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:28
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:61
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:64
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:63
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:26
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34 woocommerce/myaccount/my-orders.php:84
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:79
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:47
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:52
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:57
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:64
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/content-product.php:89
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "Name &amp; E-Mail"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:50
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:54
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:58
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:33
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:51
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:52
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+msgid "I already have an account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "I am new here"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:29
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:32
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:42
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:25
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:42
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:67
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:77
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:88
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:92
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:29
+msgid "To track your order please enter your Order ID in the box below and press the \"Track\" button. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:36
+#: woocommerce/order/order-details-customer.php:54
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:31
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/tracking.php:17
+#, php-format
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:17
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:19
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:19
+msgid " ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:28
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:34
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:30
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid " based on %s review"
+msgid_plural " based on %s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view comments."
+#~ msgstr ""
+#~ "This post is password protected. Enter the password to view comments."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Leave a comment"
+
+#~ msgid "1 comment"
+#~ msgstr "1 comment"
+
+#~ msgid "% Comments"
+#~ msgstr "% Comments"
+
+#~ msgid "Trackbacks/Pings"
+#~ msgstr "Trackbacks/Pings"
+
+#~ msgid "Name*"
+#~ msgstr "Name*"
+
+#~ msgid "E-mail*"
+#~ msgstr "E-mail*"
+
+#~ msgid "Reply"
+#~ msgstr "Reply"
+
+#~ msgid "Cancel reply"
+#~ msgstr "Cancel reply"
+
+#~ msgid "Leave a reply"
+#~ msgstr "Leave a reply"
+
+#~ msgid "Comments*"
+#~ msgstr "Comments*"
+
+#~ msgid "Submit Comment"
+#~ msgstr "Submit Comment"
+
+#~ msgid "This %s has ended. No more donations can be made."
+#~ msgstr "This %s has ended. No more donations can be made."
+
+#~ msgid "Agree to Terms?"
+#~ msgstr "Agree to Terms?"
+
+#~ msgid "Show Terms"
+#~ msgstr "Show Terms"
+
+#~ msgid "Hide Terms"
+#~ msgstr "Hide Terms"
+
+#~ msgid "Nigerian Naira (&#8358;)"
+#~ msgstr "Nigerian Naira (&#8358;)"
+
+#~ msgid "Indonesian Rupiah (Rp)"
+#~ msgstr "Indonesian Rupiah (Rp)"
+
+#~ msgid "LATEST DONORS"
+#~ msgstr "LATEST DONORS"
+
+#~ msgid "Sorry, no events matched your criteria"
+#~ msgstr "Sorry, no events matched your criteria"
+
+#~ msgid "Something went wrong."
+#~ msgstr "Something went wrong."
+
+#~ msgid "Shipping #%d"
+#~ msgstr "Shipping #%d"
+
+#~ msgid "Shipping and Handling"
+#~ msgstr "Shipping and Handling"
+
+#~ msgid ""
+#~ "Please use the shipping calculator to see available shipping methods."
+#~ msgstr ""
+#~ "Please use the shipping calculator to see available shipping methods."
+
+#~ msgid ""
+#~ "Please continue to the checkout and enter your full address to see if "
+#~ "there are any available shipping methods."
+#~ msgstr ""
+#~ "Please continue to the checkout and enter your full address to see if "
+#~ "there are any available shipping methods."
+
+#~ msgid "Please fill in your details to see available shipping methods."
+#~ msgstr "Please fill in your details to see available shipping methods."
+
+#~ msgid ""
+#~ "There don&lsquo;t seem to be available shipping methods. Please double "
+#~ "check your address, or contact us if you need any help."
+#~ msgstr ""
+#~ "There don&lsquo;t seem to be available shipping methods. Please double "
+#~ "check your address, or contact us if you need any help."
+
+#~ msgid ""
+#~ "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms "
+#~ "&amp; conditions</a>"
+#~ msgstr ""
+#~ "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms "
+#~ "&amp; conditions</a>"
+
+#~ msgid "Order Number"
+#~ msgstr "Order Number"
+
+#~ msgid "Background"
+#~ msgstr "Background"
+
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgid "Days"
+#~ msgstr "Days"
+
+#~ msgid "Hour"
+#~ msgstr "Hour"
+
+#~ msgid "Hours"
+#~ msgstr "Hours"
+
+#~ msgid "Minute"
+#~ msgstr "Minute"
+
+#~ msgid "Minutes"
+#~ msgstr "Minutes"
+
+#~ msgid "Second"
+#~ msgstr "Second"
+
+#~ msgid "Seconds"
+#~ msgstr "Seconds"
+
+#~ msgid " @ "
+#~ msgstr " @ "
+
+#~ msgid "by %s"
+#~ msgstr "by %s"
+
+#~ msgid "Upload Files"
+#~ msgstr "Upload Files"
+
+#~ msgid "+ Add new file"
+#~ msgstr "+ Add new file"
+
+#~ msgid "Upload Images"
+#~ msgstr "Upload Images"
+
+#~ msgid "+ Add new image"
+#~ msgstr "+ Add new image"
+
+#~ msgid "+ Add Media"
+#~ msgstr "+ Add Media"
+
+#~ msgid "Drop images here"
+#~ msgstr "Drop images here"
+
+#~ msgid "or"
+#~ msgstr "or"
+
+#~ msgid "Select Files"
+#~ msgstr "Select Files"
+
+#~ msgid "Allowed Image Files"
+#~ msgstr "Allowed Image Files"
+
+#~ msgid "yy-mm-dd"
+#~ msgstr "yy-mm-dd"
+
+#~ msgid "true"
+#~ msgstr "true"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "%s ago"
+#~ msgstr "%s ago"
+
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
+
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s, %2$s"
+
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgstr "All <span class=\"count\">(%s)</span>"
+
+#~ msgid "unknown"
+#~ msgstr "unknown"
+
+#~ msgid "Install %2$s"
+#~ msgstr "Install %2$s"
+
+#~ msgid "Update %2$s"
+#~ msgstr "Update %2$s"
+
+#~ msgid "Activate %2$s"
+#~ msgstr "Activate %2$s"
+
+#~ msgid "BY"
+#~ msgstr "BY"
+
+#~ msgid "at"
+#~ msgstr "at"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonymous"
+
+#~ msgid "Qty"
+#~ msgstr "Qty"
+
+#~ msgid "off"
+#~ msgstr "off"
+
+#~ msgid ""
+#~ "Generate\n"
+#~ "                        a Support URL"
+#~ msgstr ""
+#~ "Generate\n"
+#~ "                        a Support URL"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "&#8211;"
+#~ msgstr "&#8211;"
+
+#~ msgid "Select Images"
+#~ msgstr "Select Images"
+
+#~ msgid "Please correct the errors highlighted below and try again."
+#~ msgstr "Please correct the errors highlighted below and try again."
+
+#~ msgid "Private Repository"
+#~ msgstr "Private Repository"
+
+#~ msgid ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+#~ msgstr ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+
+#~ msgid "Install package not available."
+#~ msgstr "Install package not available."
+
+#~ msgid ""
+#~ "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+#~ msgstr ""
+#~ "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#~ msgid "Unpacking the package&#8230;"
+#~ msgstr "Unpacking the package&#8230;"
+
+#~ msgid "Installing the plugin&#8230;"
+#~ msgstr "Installing the plugin&#8230;"
+
+#~ msgid "Plugin install failed."
+#~ msgstr "Plugin install failed."
+
+#~ msgid "Plugin installed successfully."
+#~ msgstr "Plugin installed successfully."
+
+#~ msgid "Invalid security credential, please reload the page and try again."
+#~ msgstr "Invalid security credential, please reload the page and try again."
+
+#~ msgid "Custom Favicon"
+#~ msgstr "Custom Favicon"
+
+#~ msgid "Upload your custom site favicon."
+#~ msgstr "Upload your custom site favicon."
+
+#~ msgid ""
+#~ "Full Width or 4 Columns Layout. (full width is best used inside other "
+#~ "columns)"
+#~ msgstr ""
+#~ "Full Width or 4 Columns Layout. (full width is best used inside other "
+#~ "columns)"
+
+#~ msgid "Category IDs"
+#~ msgstr "Category IDs"
+
+#~ msgid ""
+#~ "Optional. Insert the category ids from which you want to pull your items "
+#~ "(comma separated, eg. 3, 5)."
+#~ msgstr ""
+#~ "Optional. Insert the category ids from which you want to pull your items "
+#~ "(comma separated, eg. 3, 5)."
+
+#~ msgid "Text on the button"
+#~ msgstr "Text on the button"
+
+#~ msgid "Download file%s"
+#~ msgstr "Download file%s"
+
+#~ msgid "(Includes %s)"
+#~ msgstr "(Includes %s)"
+
+#~ msgid "Refunded:"
+#~ msgstr "Refunded:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telephone"
+
+#~ msgid "Choose an option"
+#~ msgstr "Choose an option"
+
+#~ msgid "Clear Selection"
+#~ msgstr "Clear Selection"
